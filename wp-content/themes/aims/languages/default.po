@@ -1,0 +1,1698 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: gymbase/comments.php:69
+msgid " %1$s at %2$s"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-upcoming-classes.php:146
+msgid "12h"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-upcoming-classes.php:145
+msgid "24h"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-classes.php:101
+msgid "ASC"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-classes.php:1
+msgid "About"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1208
+msgid "Accordion item border active color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1190
+msgid "Accordion item border color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1199
+msgid "Accordion item border hover color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:985
+msgid "Active border color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:977
+msgid "Active color"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-classes.php:1
+msgid "Add"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-classes.php:1
+msgid "Add New Class"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-weekdays.php:1
+msgid "Add New Day"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "Add New Gallery Item"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-trainers.php:1
+msgid "Add New Trainer"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:445
+msgid "Add slider image"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1275
+msgid "Admin SMTP config (optional)"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1275
+msgid "Admin email config"
+msgstr ""
+
+#. Text in function
+#: gymbase/shortcodes/timetable.php:1
+#: gymbase/post-type-gallery.php:1
+#: gymbase/post-type-classes.php:1
+msgid "All Classes"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "All Gallery Items"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-trainers.php:1
+msgid "All Trainers"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-weekdays.php:1
+msgid "All Weekdays"
+msgstr ""
+
+#. Text in function
+#: gymbase/shortcodes/accordion.php:1
+msgid "Attribute id is required. For example [accordion_item id='item-1']"
+msgstr ""
+
+#. Text in function
+#: gymbase/shortcodes/tabs.php:1
+msgid "Attribute id is required. For example [tab id='tab-1']"
+msgstr ""
+
+#. Text in function
+#: gymbase/shortcodes/tabs.php:1
+msgid "Attribute id is required. For example [tab_content id='tab-1']"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:450
+msgid "Autoplay"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-upcoming-classes.php:150
+msgid "Background color"
+msgstr ""
+
+#. Text in function
+#: gymbase/meta-box.php:1
+msgid "Blog categories"
+msgstr ""
+
+#. Text in function
+#: gymbase/meta-box.php:1
+msgid "Blog order"
+msgstr ""
+
+#. Text in function
+#: gymbase/functions.php:1
+msgid "Blog post thumbnail"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:732
+msgid "Body background color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:898
+msgid "Body button border color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:906
+msgid "Body button border hover color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:882
+msgid "Body button text color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:890
+msgid "Body button text hover color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:786
+msgid "Body headers border color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:778
+msgid "Body headers color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:803
+msgid "Body text 2 color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:795
+msgid "Body text color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1181
+msgid "Bread crumb border color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:412
+msgid "Browse"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:176
+msgid "Button label"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:172
+msgid "Button url"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1275
+msgid "Buttons"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:371
+msgid "Can be text or any html"
+msgstr ""
+
+#. Text in echo
+#: gymbase/comments-form.php:37
+msgid "Cancel reply"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "Categories"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-classes.php:1
+msgid "Class hours"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-classes.php:1
+msgid "Classes"
+msgstr ""
+
+#. Text in function
+#: gymbase/widgets/widget-classes.php:1
+msgid "Classes Accordion"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-classes.php:106
+msgid "Classes Page"
+msgstr ""
+
+#. Text in function
+#: gymbase/shortcodes/timetable.php:1
+msgid "Click on the class name to get additional info"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:136
+#: gymbase/widgets/widget-footer-box.php:105
+msgid "Color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:305
+msgid "Colors"
+msgstr ""
+
+#. Text in function
+#: gymbase/comments.php:12
+#: gymbase/shortcodes/latest_news.php:1
+msgid "Comment"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1242
+msgid "Comment reply button color"
+msgstr ""
+
+#. Text in function
+#: gymbase/single.php:42
+#: gymbase/single.php:43
+#: gymbase/search.php:49
+#: gymbase/search.php:50
+#: gymbase/template-blog.php:74
+#: gymbase/template-blog.php:75
+#: gymbase/comments.php:12
+#: gymbase/shortcodes/latest_news.php:1
+msgid "Comments"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:300
+#: gymbase/theme-options.php:1275
+msgid "Contact Details"
+msgstr ""
+
+#. Text in function
+#: gymbase/widgets/widget-contact-details.php:1
+msgid "Contact Details Box"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:295
+msgid "Contact Form"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1258
+msgid "Contact details box background color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:700
+msgid "Contact email"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:692
+msgid "Contact fax"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:668
+msgid "Contact logo first part text"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:676
+msgid "Contact logo second part text"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:684
+msgid "Contact phone"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:164
+msgid "Content"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:168
+msgid "Content text color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1217
+msgid "Copyright area border color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-twitter.php:119
+#: gymbase/widgets/widget-scrolling-most-commented.php:97
+#: gymbase/widgets/widget-scrolling-most-viewed.php:96
+#: gymbase/widgets/widget-scrolling-recent-posts.php:89
+#: gymbase/widgets/widget-upcoming-classes.php:139
+msgid "Count"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-classes.php:102
+msgid "DESC"
+msgstr ""
+
+#. Text in function
+#: gymbase/template-blog.php:120
+msgid "Daily archives: "
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-weekdays.php:1
+#: gymbase/post-type-gallery.php:1
+msgid "Date"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1098
+msgid "Date box background color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1122
+msgid "Date box comments number border color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1131
+msgid "Date box comments number hover border color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1114
+msgid "Date box comments number text color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1106
+msgid "Date box text color"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-classes.php:1
+msgid "Day"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1286
+#: gymbase/theme-options.php:1321
+msgid "Default"
+msgstr ""
+
+#. Text in function
+#: gymbase/widgets/widget-classes.php:1
+#: gymbase/post-type-classes.php:1
+msgid "Details"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-classes.php:1
+msgid "Edit Class"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-weekdays.php:1
+msgid "Edit Day"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "Edit Gallery Item"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-trainers.php:1
+msgid "Edit Trainer"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:469
+msgid "Effect:"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:559
+msgid "Email"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:628
+msgid "Email config"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:633
+msgid "Email subject"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-classes.php:1
+msgid "End hour"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1221
+msgid "Enter \\'none\\' for no border"
+msgstr ""
+
+#. Text in echo
+#: gymbase/404.php:10
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#. Text in function
+#: gymbase/comments-functions.php:1
+msgid "Error while adding comment"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "External URL"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "External URL (optional)"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "External URL target"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:310
+#: gymbase/theme-options.php:1275
+msgid "Fonts"
+msgstr ""
+
+#. Text in function
+#: gymbase/widgets/widget-footer-box.php:1
+msgid "Footer Box"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:740
+msgid "Footer background color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:930
+msgid "Footer button border color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:938
+msgid "Footer button border hover color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:914
+msgid "Footer button text color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:922
+msgid "Footer button text hover color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:819
+msgid "Footer headers border color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:811
+msgid "Footer headers color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:828
+msgid "Footer text color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:349
+msgid "Footer text left"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:358
+msgid "Footer text right"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1082
+msgid "Form field active border color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1073
+msgid "Form field border color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1065
+msgid "Form field text color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1057
+msgid "Form hint color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1275
+msgid "Forms"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "Gallery"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1140
+msgid "Gallery box color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1148
+msgid "Gallery box hover color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1172
+msgid "Gallery details box border color"
+msgstr ""
+
+#. Text in function
+#: gymbase/functions.php:1
+msgid "Gallery image"
+msgstr ""
+
+#. Text in function
+#: gymbase/functions.php:1
+msgid "Gallery thumbnail"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1275
+msgid "General"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:724
+msgid "Header background color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1282
+msgid "Header font"
+msgstr ""
+
+#. Text in echo
+#: gymbase/single.php:21
+#: gymbase/single.php:22
+#: gymbase/search.php:20
+#: gymbase/search.php:21
+#: gymbase/template-full-width.php:23
+#: gymbase/template-full-width.php:24
+#: gymbase/template-blog.php:36
+#: gymbase/template-blog.php:37
+#: gymbase/page.php:20
+#: gymbase/page.php:21
+msgid "Home"
+msgstr ""
+
+#. Text in function
+#: gymbase/widgets/widget-home-box.php:1
+msgid "Home Box"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:367
+msgid "Home page top hint"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:579
+msgid "Host"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1002
+msgid "Hover border color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:994
+msgid "Hover color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:147
+#: gymbase/widgets/widget-footer-box.php:115
+msgid "Icon"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-contact-details.php:163
+#: gymbase/widgets/widget-social-icons.php:93
+msgid "Icon type"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "Ifame URL (optional)"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "Iframe URL"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:328
+msgid "Insert logo"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-upcoming-classes.php:158
+msgid "Item border color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/comments-form.php:8
+msgid "Leave a reply"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:968
+msgid "Link border color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:748
+#: gymbase/theme-options.php:960
+msgid "Link color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:756
+msgid "Link hover color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-twitter.php:115
+msgid "Login"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:333
+msgid "Logo first part text"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:852
+msgid "Logo first part text color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:341
+msgid "Logo second part text"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:860
+msgid "Logo second part text color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:324
+msgid "Logo url"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:285
+#: gymbase/theme-options.php:319
+msgid "Main"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1275
+msgid "Menu"
+msgstr ""
+
+#. Text in function
+#: gymbase/comments-functions.php:1
+#: gymbase/comments-form.php:34
+#: gymbase/contact_form.php:1
+msgid "Message"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1275
+msgid "Miscellaneous"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-upcoming-classes.php:143
+msgid "Mode"
+msgstr ""
+
+#. Text in function
+#: gymbase/template-blog.php:120
+msgid "Monthly archives: "
+msgstr ""
+
+#. Text in echo
+#: gymbase/search.php:88
+#: gymbase/template-blog.php:113
+#: gymbase/shortcodes/latest_news.php:1
+msgid "More"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:551
+msgid "Name"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-classes.php:1
+msgid "New Class"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-weekdays.php:1
+msgid "New Day"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "New Gallery Item"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-trainers.php:1
+msgid "New Trainer"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-classes.php:1
+msgid "No classes found"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-classes.php:1
+msgid "No classes found in Trash"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "No gallery items found"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "No gallery items found in Trash"
+msgstr ""
+
+#. Text in echo
+#: gymbase/search.php:101
+msgid "No results found."
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-trainers.php:1
+msgid "No trainers found"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-trainers.php:1
+msgid "No trainers found in Trash"
+msgstr ""
+
+#. Text in function
+#: gymbase/widgets/widget-upcoming-classes.php:1
+msgid "No upcoming classes for today"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-weekdays.php:1
+msgid "No weekdays found"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-weekdays.php:1
+msgid "No weekdays found in Trash"
+msgstr ""
+
+#. Text in function
+#: gymbase/meta-box.php:1
+#: gymbase/post-type-trainers.php:1
+#: gymbase/post-type-gallery.php:1
+#: gymbase/post-type-classes.php:1
+msgid "Options"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:270
+msgid "Options saved"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-classes.php:99
+msgid "Order"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:595
+msgid "Password"
+msgstr ""
+
+#. Text in function
+#: gymbase/comments-functions.php:1
+#: gymbase/contact_form.php:1
+msgid "Please enter valid e-mail"
+msgstr ""
+
+#. Text in function
+#: gymbase/comments-functions.php:1
+#: gymbase/contact_form.php:1
+msgid "Please enter your message"
+msgstr ""
+
+#. Text in function
+#: gymbase/comments-functions.php:1
+#: gymbase/contact_form.php:1
+msgid "Please enter your name"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:603
+msgid "Port"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1250
+msgid "Post author link color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/single.php:68
+#: gymbase/search.php:73
+#: gymbase/template-blog.php:98
+#: gymbase/shortcodes/latest_news.php:1
+msgid "Posted by"
+msgstr ""
+
+#. Text in echo
+#: gymbase/comments.php:84
+#: gymbase/comments.php:85
+msgid "Reply"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:376
+msgid "Responsive"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:611
+msgid "SMTP Secure"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1358
+msgid "Save All Options"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1044
+#: gymbase/theme-options.php:1267
+msgid "Save Colors Options"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:709
+msgid "Save Contact Details Options"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:653
+msgid "Save Contact Form Options"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1353
+msgid "Save Fonts Options"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:388
+msgid "Save Main Options"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:536
+msgid "Save Slider Options"
+msgstr ""
+
+#. Text in function
+#: gymbase/widgets/widget-scrolling-most-commented.php:1
+msgid "Scrolling Most Commented Posts"
+msgstr ""
+
+#. Text in function
+#: gymbase/widgets/widget-scrolling-most-viewed.php:1
+msgid "Scrolling Most Viewed Posts"
+msgstr ""
+
+#. Text in function
+#: gymbase/widgets/widget-scrolling-recent-posts.php:1
+msgid "Scrolling Recent Posts"
+msgstr ""
+
+#. Text in echo
+#: gymbase/searchform.php:4
+msgid "Search"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-classes.php:1
+msgid "Search Class"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "Search Gallery Item"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-trainers.php:1
+msgid "Search Trainer"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-weekdays.php:1
+msgid "Search Weekdays"
+msgstr ""
+
+#. Text in echo
+#: gymbase/search.php:8
+#: gymbase/search.php:28
+msgid "Search results"
+msgstr ""
+
+#. Text in echo
+#: gymbase/comments-form.php:36
+#: gymbase/contact_form.php:1
+msgid "Send"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:844
+msgid "Sentence color"
+msgstr ""
+
+#. Text in function
+#: gymbase/shortcodes/shortcodes.php:1
+msgid "Show all"
+msgstr ""
+
+#. Text in echo
+#: gymbase/searchform.php:3
+msgid "Site search"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:461
+msgid "Slide interval:"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:290
+#: gymbase/theme-options.php:396
+msgid "Slider"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:433
+msgid "Slider image link"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:425
+msgid "Slider image subtitle"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:417
+msgid "Slider image title"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:408
+msgid "Slider image url"
+msgstr ""
+
+#. Text in function
+#: gymbase/functions.php:1
+msgid "Small thumbnail"
+msgstr ""
+
+#. Text in function
+#: gymbase/widgets/widget-social-icons.php:1
+msgid "Social Icons"
+msgstr ""
+
+#. Text in echo
+#: gymbase/404.php:11
+msgid "Sorry, but you are looking for something that isn't here"
+msgstr ""
+
+#. Text in function
+#: gymbase/contact_form.php:1
+msgid "Sorry, we can't send this message"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-classes.php:1
+msgid "Start hour"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1317
+msgid "Subheader font"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1011
+msgid "Submenu background color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1019
+msgid "Submenu hover background color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1035
+msgid "Submenu hover link color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1027
+msgid "Submenu link color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:128
+#: gymbase/meta-box.php:1
+#: gymbase/post-type-trainers.php:1
+#: gymbase/widgets/widget-upcoming-classes.php:131
+#: gymbase/post-type-gallery.php:1
+#: gymbase/post-type-classes.php:1
+#: gymbase/widgets/widget-footer-box.php:97
+msgid "Subtitle"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:132
+#: gymbase/widgets/widget-upcoming-classes.php:135
+#: gymbase/widgets/widget-footer-box.php:101
+msgid "Subtitle color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:641
+msgid "Template"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1275
+msgid "Text"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-upcoming-classes.php:154
+msgid "Text color"
+msgstr ""
+
+#. Text in function
+#: gymbase/contact_form.php:1
+msgid "Thank you for contact us"
+msgstr ""
+
+#. Text in echo
+#: gymbase/search.php:9
+msgid "The results for phrase:"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:836
+msgid "Timeago label color"
+msgstr ""
+
+#. Text in function
+#: gymbase/widgets/widget-classes.php:1
+#: gymbase/post-type-classes.php:1
+msgid "Timetable"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-classes.php:128
+msgid "Timetable Page"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1156
+msgid "Timetable box color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1164
+msgid "Timetable box hover color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-twitter.php:111
+#: gymbase/widgets/widget-home-box.php:120
+#: gymbase/widgets/widget-scrolling-most-commented.php:93
+#: gymbase/widgets/widget-scrolling-most-viewed.php:92
+#: gymbase/widgets/widget-scrolling-recent-posts.php:85
+#: gymbase/widgets/widget-classes.php:95
+#: gymbase/widgets/widget-upcoming-classes.php:123
+#: gymbase/widgets/widget-footer-box.php:85
+#: gymbase/widgets/widget-contact-details.php:131
+#: gymbase/widgets/widget-social-icons.php:85
+msgid "Title"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:124
+#: gymbase/widgets/widget-upcoming-classes.php:127
+#: gymbase/widgets/widget-footer-box.php:89
+msgid "Title color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1226
+msgid "Top hint background color"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:1234
+msgid "Top hint text color"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-trainers.php:1
+#: gymbase/post-type-classes.php:1
+msgid "Trainers"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:527
+msgid "Transition speed:"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:485
+msgid "Transition:"
+msgstr ""
+
+#. Text in function
+#: gymbase/widgets/widget-twitter.php:1
+msgid "Twitter Feed"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:157
+msgid "Type"
+msgstr ""
+
+#. Text in function
+#: gymbase/widgets/widget-upcoming-classes.php:1
+msgid "Upcoming Classes"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-footer-box.php:93
+msgid "Url"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:587
+msgid "Username"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "Video URL"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "Video URL (optional)"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-classes.php:1
+msgid "View Class"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-weekdays.php:1
+msgid "View Day"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "View Gallery Item"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-trainers.php:1
+msgid "View Trainer"
+msgstr ""
+
+#. Text in function
+#: gymbase/single.php:75
+#: gymbase/search.php:80
+#: gymbase/template-blog.php:105
+#: gymbase/shortcodes/latest_news.php:1
+msgid "View all posts filed under %s"
+msgstr ""
+
+#. Text in function
+#: gymbase/comments-functions.php:1
+#: gymbase/comments-form.php:29
+#: gymbase/contact_form.php:1
+msgid "Website (optional)"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-weekdays.php:1
+msgid "Weekdays"
+msgstr ""
+
+#. Text in function
+#: gymbase/template-blog.php:120
+msgid "Yearly archives: "
+msgstr ""
+
+#. Text in echo
+#: gymbase/template-full-width.php:21
+#: gymbase/template-blog.php:34
+#: gymbase/page.php:18
+msgid "You are here:"
+msgstr ""
+
+#. Text in function
+#: gymbase/comments-functions.php:1
+msgid "Your comment has been added"
+msgstr ""
+
+#. Text in function
+#: gymbase/comments-functions.php:1
+#: gymbase/comments-form.php:26
+#: gymbase/contact_form.php:1
+msgid "Your email"
+msgstr ""
+
+#. Text in function
+#: gymbase/comments-functions.php:1
+#: gymbase/comments-form.php:23
+#: gymbase/contact_form.php:1
+msgid "Your name"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-contact-details.php:135
+msgid "address_line_1"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-contact-details.php:139
+msgid "address_line_2"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-contact-details.php:143
+msgid "address_line_3"
+msgstr ""
+
+#. Text in function
+#: gymbase/meta-box.php:1
+msgid "ascending"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:150
+#: gymbase/widgets/widget-footer-box.php:118
+msgid "calendar"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-contact-details.php:147
+msgid "contact_line_1"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-contact-details.php:151
+msgid "contact_line_2"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-contact-details.php:155
+msgid "contact_line_3"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:478
+msgid "cover"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:477
+msgid "crossfade"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:141
+msgid "dark"
+msgstr ""
+
+#. Text in function
+#: gymbase/meta-box.php:1
+msgid "descending"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:475
+msgid "directscroll"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:516
+msgid "easeInBack"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:519
+msgid "easeInBounce"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:510
+msgid "easeInCirc"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:494
+msgid "easeInCubic"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:513
+msgid "easeInElastic"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:504
+msgid "easeInExpo"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:518
+msgid "easeInOutBack"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:521
+msgid "easeInOutBounce"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:512
+msgid "easeInOutCirc"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:497
+msgid "easeInOutCubic"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:515
+msgid "easeInOutElastic"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:506
+msgid "easeInOutExpo"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:493
+msgid "easeInOutQuad"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:500
+msgid "easeInOutQuart"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:509
+msgid "easeInOutQuint"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:503
+msgid "easeInOutSine"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:491
+msgid "easeInQuad"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:498
+msgid "easeInQuart"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:507
+msgid "easeInQuint"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:501
+msgid "easeInSine"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:517
+msgid "easeOutBack"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:520
+msgid "easeOutBounce"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:511
+msgid "easeOutCirc"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:495
+msgid "easeOutCubic"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:514
+msgid "easeOutElastic"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:505
+msgid "easeOutExpo"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:492
+msgid "easeOutQuad"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:499
+msgid "easeOutQuart"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:508
+msgid "easeOutQuint"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:502
+msgid "easeOutSine"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:476
+msgid "fade"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:140
+#: gymbase/widgets/widget-footer-box.php:109
+msgid "green"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:151
+#: gymbase/widgets/widget-footer-box.php:119
+msgid "hand"
+msgstr ""
+
+#. Text in echo
+#: gymbase/comments.php:69
+msgid "in reply to "
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:139
+#: gymbase/widgets/widget-footer-box.php:108
+msgid "light_green"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:490
+msgid "linear"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "new window"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:381
+#: gymbase/theme-options.php:455
+msgid "no"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:474
+msgid "none"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:159
+msgid "normal"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:152
+#: gymbase/widgets/widget-footer-box.php:120
+msgid "note"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:143
+#: gymbase/widgets/widget-footer-box.php:111
+msgid "or pick custom one: "
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:153
+#: gymbase/widgets/widget-footer-box.php:121
+msgid "phone"
+msgstr ""
+
+#. Text in function
+#: gymbase/post-type-gallery.php:1
+msgid "same window"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:473
+msgid "scroll"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:160
+msgid "sidebar"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:616
+msgid "ssl"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-footer-box.php:107
+msgid "super_light_green"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:489
+msgid "swing"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:617
+msgid "tls"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:479
+msgid "uncover"
+msgstr ""
+
+#. Text in echo
+#: gymbase/widgets/widget-home-box.php:138
+msgid "white"
+msgstr ""
+
+#. Text in echo
+#: gymbase/theme-options.php:380
+#: gymbase/theme-options.php:454
+msgid "yes"
+msgstr ""
+
