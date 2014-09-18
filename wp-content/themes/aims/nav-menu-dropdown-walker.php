@@ -15,7 +15,7 @@ class Walker_Nav_Menu_Dropdown extends Walker_Nav_Menu
 	{
 		$item->title = str_repeat("-", $depth)." ".$item->title;
 
-		parent::start_el(&$output, $item, $depth, $args);
+		parent::start_el($output, $item, $depth, $args);
 		
 		$output = str_replace('<li', '<option value="' . $item->url . '"' . (in_array("current-menu-item", (array)$item->classes) ? ' selected="selected"' : ''), $output);
 		$output = strip_tags($output, '<select>,<option>');
