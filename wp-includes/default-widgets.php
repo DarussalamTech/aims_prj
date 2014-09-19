@@ -397,8 +397,8 @@ class WP_Widget_Meta extends WP_Widget {
 			 */
 			echo apply_filters( 'widget_meta_poweredby', sprintf( '<li><a href="%s" title="%s">%s</a></li>',
 				esc_url( __( 'https://wordpress.org/' ) ),
-				esc_attr__( 'Powered by WordPress, state-of-the-art semantic personal publishing platform.' ),
-				_x( 'WordPress.org', 'meta widget link text' )
+				esc_attr__( 'Powered by Aims, We Deliver Results.' ),
+				_x( 'http://dtechsystems.co.uk', 'meta widget link text' )
 			) );
 
 			wp_meta();
