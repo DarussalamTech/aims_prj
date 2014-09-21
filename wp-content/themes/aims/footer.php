@@ -19,12 +19,12 @@
                         <div class="footer_title"><span>LATEST TWEETS</span></div>
                         <div class="footer_title"><span>FOLLOW US ON</span></div>
                     </div>
-                    <div class="footer_content_detail">
+                    <div class="footer_content_detail" style="background:url(<?php echo WP_SITEURL;?>/wp-content/uploads/2014/09/footer_img.jpg) no-repeat;">
                     	<div class="footer_description">
                         		<div class="footer_small_icon">
-                                	<img class="address_icon" src="http://localhost/aims/wp-content/uploads/2014/09/address_icon.png" alt="adress" />
-                                    <img class="phone_icon" src="http://localhost/aims/wp-content/uploads/2014/09/phone_icon.png" alt="phone" />
-                                    <img class="email_icon" src="http://localhost/aims/wp-content/uploads/2014/09/email_icon.png" alt="email" />
+                                	<img class="address_icon" src="<?php echo WP_SITEURL;?>/wp-content/uploads/2014/09/address_icon.png" alt="adress" />
+                                    <img class="phone_icon" src="<?php echo WP_SITEURL;?>/wp-content/uploads/2014/09/phone_icon.png" alt="phone" />
+                                    <img class="email_icon" src="<?php echo WP_SITEURL;?>/wp-content/uploads/2014/09/email_icon.png" alt="email" />
                                 </div>
                                 <div class="footer_contact_detail">
                                 	 <span>Office # 1, First Floor, Mercure<br />Value Hotel, Exit 9,Near Granada<br /> Mall, Riyadh, Kingdom of Saudi Arabia</span>
@@ -36,12 +36,12 @@
 3 months ago</span></div>
                         <div class="footer_description">
                         	<div class="social_icon_box">
-                            	<div class="social_icon_circle"><img src="http://localhost/aims/wp-content/uploads/2014/09/fb_icon.png" alt="facebook" /></div>
-                                <div class="social_icon_circle"><img src="http://localhost/aims/wp-content/uploads/2014/09/twitter_icon.png" alt="twitter" /></div>
-                                <div class="social_icon_circle"><img src="http://localhost/aims/wp-content/uploads/2014/09/google_plus_icon.png" alt="google plus" /></div>
+                            	<div class="social_icon_circle"><img src="<?php echo WP_SITEURL;?>/wp-content/uploads/2014/09/fb_icon.png" alt="facebook" /></div>
+                                <div class="social_icon_circle"><img src="<?php echo WP_SITEURL;?>/wp-content/uploads/2014/09/twitter_icon.png" alt="twitter" /></div>
+                                <div class="social_icon_circle"><img src="<?php echo WP_SITEURL;?>/wp-content/uploads/2014/09/google_plus_icon.png" alt="google plus" /></div>
                             </div>
                             <div class="qr_code">
-                            	<img src="http://localhost/aims/wp-content/uploads/2014/09/qrcode.jpg" alt="qr code" />
+                            	<img src="<?php echo WP_SITEURL;?>/wp-content/uploads/2014/09/qrcode.jpg" alt="qr code" />
                             </div>
                         </div>
                     </div> 

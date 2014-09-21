@@ -2189,7 +2189,7 @@ body{background:#FFF !important;}
 .footer_title{width:290px; position:relative; height:40px; float:left; display:inline;  padding-left:40px; text-align:left;}
 .footer_box_title .footer_title span{font-family:candara; font-size:20px; font-style:italic; font-weight:bold; color:#000; line-height:40px;}
 .footer_description{width:290px; position:relative; height:auto; float:left; display:inline;  padding-left:40px; text-align:left;}
-.footer_content_detail{width:990px; height:177px; position:relative; background:url(http://localhost/aims/wp-content/uploads/2014/09/footer_img.jpg) no-repeat;}
+.footer_content_detail{width:990px; height:177px; position:relative;}
 .footer_content_detail .footer_description .footer_contact_detail span{font-family:candara; font-style:italic; color:#FFF; font-size:16px; text-align:left; display:block; margin:15px 0; line-height:24px;}
 .footer_description > span {display: block; font-family: candara; font-size: 17px; line-height: 22px; margin-top: 15px; width: 225px;}
 .footer_small_icon{width:24px; height:177px; position:relative; display:inline; float:left;}
