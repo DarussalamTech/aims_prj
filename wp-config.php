@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'aims_db');
+define('DB_NAME', 'aims_db'); //darussa3_aims
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'root'); //darussa3_root
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'root'); //dtech-ecom-php!@$
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -32,6 +32,17 @@ define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+
+/*
+*  Setting the BaseURL and siteURL 
+*/
+/*For Localhost */
+define('WP_HOME','http://localhost/aims_local');
+define('WP_SITEURL','http://localhost/aims_local');
+
+/*For live instance */
+//define('WP_HOME','http://demosites.darussalampk.com/aims');
+//define('WP_SITEURL','http://demosites.darussalampk.com/aims');
 
 /**#@+
  * Authentication Unique Keys and Salts.
