@@ -254,9 +254,9 @@ h5
 }
 /*.sf-menu li:hover a, .sf-menu li.selected a,*/ .sf-menu li.current-menu-item a
 {
-	color: #fff !important;
+	/*color: #fff !important;*/
 /*	border-bottom: 2px solid #59B42D;*/
-    background:#ff1414;
+        /*background:#ff1414;*/
 }
 .sf-menu li ul
 {
@@ -611,7 +611,7 @@ h5
 {
 	display: inline;
 	font-family:hevetica;
-	font-size:70px;
+	font-size:50px;/*font-size:70px;*/
 	color:#c90f0f;
 }
 .slider_content .subtitle
@@ -619,8 +619,10 @@ h5
 	display: inline-block;
 	font-family: candara;
 	color:#0c0c0c;
-	font-size:48px;
-	width:600px;
+	font-size:30px;
+	width:530px;
+        margin-top: 10px;
+        line-height: 35px;
 }
 /* --- slider navigation --- */
 .controls.slider_navigation
@@ -2180,7 +2182,7 @@ li.current-cat a,
 					CUSTOME STYLING CODE FOR HOME PAGE
 *******************************************************************************/
 body{background:#FFF !important;}
-.sf-menu a{font-family:candara; font-size:18px; font-weight:bold; color:#000 !important; padding:66px 15px 35px 15px !important;}
+.sf-menu a{font-family:candara !important; font-size:18px; /*font-weight:bold;*/ color:#000 !important; padding:66px 15px 35px 15px !important;}
 .sf-menu li ul li{height:35px; padding:10px 0 0 10px; !important; margin:0 !important; border-bottom:1px solid #ccc;}
 .sf-menu li ul li a{padding:0 !important; margin:0 !important; line-height:35px; font-size:14px; font-family:candara;}
 .sf-menu li ul li a:hover{color:#fff !important;}
@@ -2190,7 +2192,7 @@ body{background:#FFF !important;}
 .footer_box_title .footer_title span{font-family:candara; font-size:20px; font-style:italic; font-weight:bold; color:#000; line-height:40px;}
 .footer_description{width:290px; position:relative; height:auto; float:left; display:inline;  padding-left:40px; text-align:left;}
 .footer_content_detail{width:990px; height:177px; position:relative;}
-.footer_content_detail .footer_description .footer_contact_detail span{font-family:candara; font-style:italic; color:#FFF; font-size:16px; text-align:left; display:block; margin:15px 0; line-height:24px;}
+.footer_content_detail .footer_description .footer_contact_detail span{font-family:candara; font-style:italic; color:#FFF; font-size:14px; text-align:left; display:block; margin:15px 0; line-height:24px;}
 .footer_description > span {display: block; font-family: candara; font-size: 17px; line-height: 22px; margin-top: 15px; width: 225px;}
 .footer_small_icon{width:24px; height:177px; position:relative; display:inline; float:left;}
 .footer_contact_detail{position:relative; display:inline; float:left; width:260px; height:177px; margin-left:6px;}
