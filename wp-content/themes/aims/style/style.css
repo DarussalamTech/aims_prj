@@ -2182,7 +2182,7 @@ li.current-cat a,
 					CUSTOME STYLING CODE FOR HOME PAGE
 *******************************************************************************/
 body{background:#FFF !important;}
-.sf-menu a{font-family:candara !important; font-size:18px; /*font-weight:bold;*/ color:#000 !important; padding:66px 15px 35px 15px !important;}
+.sf-menu a{font-family:candara !important; font-size:18px; font-weight:bold; color:#000 !important; padding:66px 15px 35px 15px !important;}
 .sf-menu li ul li{height:35px; padding:10px 0 0 10px; !important; margin:0 !important; border-bottom:1px solid #ccc;}
 .sf-menu li ul li a{padding:0 !important; margin:0 !important; line-height:35px; font-size:14px; font-family:candara;}
 .sf-menu li ul li a:hover{color:#fff !important;}
