@@ -591,10 +591,15 @@ h5
 }
 /* --- slider content --- */
 .slider_content_box
-{ 	margin-top: -530px;
+{ 	/*margin-top: -530px;
 	min-height: 220px;
 	position:absolute;
 	margin-left:25%; 
+	*/
+	margin: -460px auto 0 !important;
+	min-height: 460px !important;
+	position: relative !important;
+	width: 930px !important;
 }
 .slider_content
 {
