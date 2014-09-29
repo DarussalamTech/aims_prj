@@ -173,7 +173,7 @@ var WONDERPLUGIN_CAROUSEL_SKIN_OPTIONS = {
         screenquery:'{\n	"tablet": {\n		"screenwidth": 900,\n		"visibleitems": 2\n	},\n	"mobile": {\n		"screenwidth": 600,\n		"visibleitems": 1\n	}\n}',
         navwidth:16,
         loop:0,
-        transitionduration:1000
+        transitionduration:2500
 	},
 	list: {
 		width:240,
