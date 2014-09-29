@@ -1,4 +1,5 @@
 /* --- general --- */
+
 .clearfix:after
 {
     font-size: 0px;
@@ -29,6 +30,8 @@ a:hover
 p
 {
 	padding: 1em 0;
+	color:#000000;
+	text-align:inherit;
 }
 .relative
 {

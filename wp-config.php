@@ -22,7 +22,7 @@ define('DB_NAME', 'aims_db'); //darussa3_aims
 define('DB_USER', 'root'); //darussa3_root
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root'); //dtech-ecom-php!@$
+define('DB_PASSWORD', ''); //dtech-ecom-php!@$
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -37,8 +37,8 @@ define('DB_COLLATE', '');
 *  Setting the BaseURL and siteURL 
 */
 /*For Localhost */
-define('WP_HOME','http://localhost/aims_local');
-define('WP_SITEURL','http://localhost/aims_local');
+define('WP_HOME','http://localhost/aims');
+define('WP_SITEURL','http://localhost/aims');
 
 /*For live instance */
 //define('WP_HOME','http://demosites.darussalampk.com/aims');
