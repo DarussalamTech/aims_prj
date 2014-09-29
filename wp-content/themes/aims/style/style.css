@@ -592,10 +592,10 @@ h5
 /* --- slider content --- */
 .slider_content_box
 {
-	margin-top: -530px;
-	min-height: 98px;
-	position:absolute;
-	margin-left:25%;
+	margin:-450px auto 60px;
+    min-height: 98px;
+    position: relative;
+    width: 930px;
 }
 .slider_content
 {
@@ -2212,7 +2212,7 @@ body{background:#FFF !important;}
 /*******************************************************************************
 					CUSTOME "SLIDER" STYLING CODE FOR HOME PAGE
 *******************************************************************************/
-.wonderplugincarousel{max-width:990px !important; height:406px; position:relative; background:#FFF; margin-top: -228px !important;}
+.wonderplugincarousel{max-width:990px !important; height:406px; position:relative; background:#FFF;}
 .amazingcarousel-list{height:305px; overflow:hidden;}
 .amazingcarousel-item {/*margin: 0 42px !important;*/ height:305px !important;}
 #wonderplugincarousel-1 .amazingcarousel-item-container{height:300px !important; border:1px solid #FFF !important; border-bottom:4px solid #fdcb05 !important; box-shadow:none !important; margin:0 !important; padding:0 !important; width:250px !important;  }
