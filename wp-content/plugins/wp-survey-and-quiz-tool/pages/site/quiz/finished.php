@@ -5,7 +5,7 @@ $objTokens = Wpsqt_Tokens::getTokenObject();
 $objTokens->setDefaultValues();
 
 ?>
-
+<form method="post" action="<?php  echo  get_site_url().'/evaluate-trainer'; ?>">
 <h2 class="wpsqt-exam-finished-title"><?php _e('Exam Finished', 'wp-survey-and-quiz-tool'); ?></h2>
 
 <?php if ($_SESSION['wpsqt'][$quizName]['details']['finish_display'] == 'Finish message' || $_SESSION['wpsqt'][$quizName]['details']['finish_display'] == 'Both'  ) { ?>
@@ -39,4 +39,5 @@ $objTokens->setDefaultValues();
 		<?php
 	}
 ?>
-
+<p><input type='submit' value='<?php _e('Submit', 'wp-survey-and-quiz-tool'); ?>' class='button-secondary' /></p>
+</form>

@@ -27,7 +27,7 @@ foreach ($_SESSION['wpsqt'][$quizName]['sections'][$sectionKey]['questions'] as 
 			
 			if ( isset($question["required"]) &&  $question["required"] == "yes" ){ 
 				?>
-				<font color="#FF0000"><strong>*
+				<font color="#000000"><strong>*
 				
 			<?php			
 				// See if the question has been missed and this a replay if not end the red text here.

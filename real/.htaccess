@@ -1,0 +1,5 @@
+RewriteEngine on
+
+# Remove index.php
+RewriteCond $1 !^(index\.php|img|assets|storage|js|bootstrap|robots\.txt|googlefc22a9c55c6f2076\.html)
+RewriteRule ^(.*)$ index.php/$1 [L]

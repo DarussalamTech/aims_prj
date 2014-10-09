@@ -702,7 +702,7 @@ case 'register' :
 	login_header(__('Registration Form'), '<p class="message register">' . __('Register For This Site') . '</p>', $errors);
 ?>
 
-<form name="registerform" id="registerform" action="<?php echo esc_url( site_url('wp-login.php?action=register', 'login_post') ); ?>" method="post" novalidate="novalidate">
+<form name="registerform" id="registerform" action="<?php echo esc_url( site_url('wp-login.php?action=register', 'login_post') ); ?>" method="post" novalidate>
 	<p>
 		<label for="user_login"><?php _e('Username') ?><br />
 		<input type="text" name="user_login" id="user_login" class="input" value="<?php echo esc_attr(wp_unslash($user_login)); ?>" size="20" /></label>
@@ -803,15 +803,20 @@ default:
 			</body></html>
 <?php		exit;
 		}
-
+			 
 		if ( ( empty( $redirect_to ) || $redirect_to == 'wp-admin/' || $redirect_to == admin_url() ) ) {
 			// If the user doesn't belong to a blog, send them to user admin. If the user can't edit posts, send them to their profile.
 			if ( is_multisite() && !get_active_blog_for_user($user->ID) && !is_super_admin( $user->ID ) )
 				$redirect_to = user_admin_url();
-			elseif ( is_multisite() && !$user->has_cap('read') )
+			elseif ( is_multisite() && !$user->has_cap('read') ){
 				$redirect_to = get_dashboard_url( $user->ID );
-			elseif ( !$user->has_cap('edit_posts') )
+			}
+			/*elseif ( !$user->has_cap('edit_posts') ){
 				$redirect_to = admin_url('profile.php');
+			}*/
+			elseif ( "student" == $user->roles[0] ){
+				$redirect_to = site_url()."/assesment";
+			}
 		}
 		wp_safe_redirect($redirect_to);
 		exit();

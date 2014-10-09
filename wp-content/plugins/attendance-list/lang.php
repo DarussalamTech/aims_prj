@@ -5,8 +5,8 @@ $al_lang=array(
 "login"=>"You must be logged in to subscribe.",
 "vote1"=>"Yes",
 "vote2"=>"No",
-"vote3"=>"Maybe",
+"vote3"=>"Leave",
 "listheader"=>"Attendance list:",
-"question"=>"Are you going to join the event?"
+"question"=>"Present?"
 );
 ?>

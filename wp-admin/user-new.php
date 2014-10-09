@@ -416,6 +416,16 @@ if ( apply_filters( 'show_password_fields', true ) ) : ?>
 			?>
 			</select>
 		</td>
+                <?php wp_dropdown_clientadmins();
+                        die;?>
+                <td><select name="role" id="role">
+			<?php
+			if ( !$new_user_role )
+				$new_user_role = !empty($current_role) ? $current_role : get_option('default_role');
+			wp_dropdown_roles($new_user_role);
+			?>
+			</select>
+		</td>
 	</tr>
 	<?php if ( is_multisite() && is_super_admin() ) { ?>
 	<tr>

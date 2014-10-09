@@ -845,7 +845,25 @@ function wp_dropdown_roles( $selected = false ) {
 	foreach ( $editable_roles as $role => $details ) {
 		$name = translate_user_role($details['name'] );
 		if ( $selected == $role ) // preselect specified role
-			$p = "\n\t<option selected='selected' value='" . esc_attr($role) . "'>$name</option>";
+			$p = "\n\t<option selected='selected' onchange='view_subadmin();' value='" . esc_attr($role) . "'>$name</option>";
+		else
+			$r .= "\n\t<option value='" . esc_attr($role) . "'>$name</option>";
+	}
+	echo $p . $r;
+}
+function wp_dropdown_clientadmins( $selected = false ) {
+	$p = '';
+	$r = '';
+
+        echo "All Roles => <pre>";
+        get_available_client_admins();
+       
+	//$editable_roles = array_reverse( get_editable_roles() );
+
+        foreach ( $editable_roles as $role => $details ) {
+		$name = translate_user_role($details['name'] );
+		if ( $selected == $role ) // preselect specified role
+			$p = "\n\t<option selected='selected' onchange='view_subadmin();' value='" . esc_attr($role) . "'>$name</option>";
 		else
 			$r .= "\n\t<option value='" . esc_attr($role) . "'>$name</option>";
 	}

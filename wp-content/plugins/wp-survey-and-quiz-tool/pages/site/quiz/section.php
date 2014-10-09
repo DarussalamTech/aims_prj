@@ -37,6 +37,10 @@ if (isset($_POST['wpsqt_time_elapsed'])) {
 	</form>
 <?php } ?>
 
+<?php /*?><form method="post" action="<?php      
+			if ($sectionKey == (count($_SESSION['wpsqt'][$quizName]['sections']) - 1)) {	
+				echo 'http://localhost/aims/feedback'; }else{ echo esc_url($url); }?>"><?php */?>
+                
 <form method="post" action="<?php echo esc_url($url); ?>">
 	<input type="hidden" name="wpsqt_nonce" value="<?php echo WPSQT_NONCE_CURRENT; ?>" />
 	<input type="hidden" name="step" value="<?php echo ( $_SESSION['wpsqt']['current_step']+1); ?>" />
@@ -54,7 +58,7 @@ foreach ($_SESSION['wpsqt'][$quizName]['sections'][$sectionKey]['questions'] as 
 
 			if ( isset($question["required"]) &&  $question["required"] == "yes" ){
 				?>
-				<font color="#FF0000"><strong>*
+				<font color="#000000"><strong>*
 
 			<?php
 				// See if the question has been missed and this a replay if not end the red text here.
@@ -62,11 +66,11 @@ foreach ($_SESSION['wpsqt'][$quizName]['sections'][$sectionKey]['questions'] as 
 					?></strong></font><?php
 				}
 			}
-
-			if (isset($_SESSION['wpsqt'][$quizName]['details']['question_numbers']) && $_SESSION['wpsqt'][$quizName]['details']['question_numbers'] == 'yes') {
+			?>
+			<div class="quest_name"><?php if (isset($_SESSION['wpsqt'][$quizName]['details']['question_numbers']) && $_SESSION['wpsqt'][$quizName]['details']['question_numbers'] == 'yes') {
 				echo $q_number.'. ';
 			}
-			echo stripslashes($question['name']);
+			echo stripslashes($question['name']);?></div><?php
 
 			// See if the question has been missed and this is a replay
 			if ( !empty($_SESSION['wpsqt']['current_message']) && !in_array($questionId,$_SESSION['wpsqt']['required']['given']) ){

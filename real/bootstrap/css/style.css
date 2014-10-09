@@ -1,0 +1,842 @@
+.clear {
+
+
+
+	clear: both;
+
+
+
+}
+
+
+
+#map-canvas {
+
+
+
+	height: 574px;
+
+
+
+}
+
+
+
+ul.ui-autocomplete {
+
+
+
+	background-color: white;
+
+
+
+	border: 1px solid grey;
+
+
+
+	width: 234px;		
+
+
+
+	overflow: hidden;
+
+
+
+}
+
+
+
+li.ui-menu-item {
+
+
+
+	list-style-type: none;
+
+
+
+	padding-left: 14px;
+
+
+
+	cursor: pointer;
+
+
+
+}
+
+
+
+li.ui-menu-item:hover {
+
+
+
+	background-color: #84BDB5;
+
+
+
+}
+
+
+
+li.ui-menu-item:hover a {
+
+
+
+	color: #005580;
+
+
+
+	text-decoration: none;
+
+
+
+}
+
+
+
+.gmnoprint img { max-width: none; }
+
+
+
+
+
+
+
+.resuls-inner {
+
+
+
+	max-height: 380px;
+
+
+
+	overflow-y: scroll;
+
+
+
+}	
+
+
+
+
+
+
+
+#rdc-sch-txt-geo.icon {
+
+
+
+	background: url(../img/realtor_geo@2x.png) #fff 6px 7px no-repeat;
+
+
+
+	background-size: 20px auto;
+
+
+
+}
+
+
+
+#rdc-sch-txt-geo {
+
+
+
+	height: 34px;
+
+
+
+	border: 1px solid #7ca0b8;
+
+
+
+	border-radius: 4px;
+
+
+
+	background: #fff;
+
+
+
+	z-index: 500;
+
+
+
+	margin-top: -28px;
+
+	
+
+	margin-bottom: 13px;
+
+
+
+}
+
+
+
+#rdc-sch-txt {
+
+
+
+	position: absolute;
+
+
+
+	height: 26px;
+  
+    width: 130px;
+
+
+	padding: 4px 2px;
+
+
+
+	border: none;
+
+
+
+	background: #fff;
+
+
+
+	color: #135d68;
+
+
+
+	font: normal 115.1% arial, sans-serif;
+
+
+
+	-webkit-appearance: none;
+
+
+
+	width: 135px;
+
+
+
+}
+
+
+
+#rdc-sch-btn-geo {
+
+
+
+	top: 6px;
+
+
+
+	position: relative;
+
+
+
+	left: 4px;
+
+
+
+	width: 32px;
+
+
+
+	height: 34px;
+
+
+
+	border: none;
+
+
+
+	z-index: 600;
+
+
+
+	opacity: 0;
+
+
+
+	overflow: hidden;
+
+
+
+}
+
+
+
+#rdc-sch-btn-clr {
+
+
+
+	top: 6px;
+
+
+
+	position: relative;
+
+
+
+	float: right;
+
+
+
+	width: 32px;
+
+
+
+	height: 34px;
+
+
+
+	border: none;
+
+
+
+	background: url(../img/realtor_clear@2x.png) 6px 7px no-repeat;
+
+
+
+	background-size: 20px auto;
+
+
+
+	z-index: 600;
+
+
+
+}
+
+
+
+.options tr td:first-child {
+
+
+
+	font-weight: bold;
+
+
+
+}
+
+
+
+.table tr td:nth-child(2) {
+
+
+
+	*width: 9%;
+
+
+
+	line-height: 32px;
+
+
+
+}
+
+
+
+#geo-alert {
+
+
+
+	display: none;
+
+
+
+}
+
+
+
+#rdc-sch-txt-geo input:focus {
+
+
+
+    border:none;
+
+
+
+    box-shadow: none;
+
+
+
+    outline: 0 none;
+
+
+
+}
+
+
+
+.breadcrumb {
+
+
+
+	background: none;
+
+
+
+	padding: 0;
+
+
+
+	font-size: 11px;
+
+
+
+}
+
+
+
+
+
+
+
+h5 {
+
+
+
+	margin: 2px 0;
+
+
+
+}
+
+
+
+
+
+
+
+.mini-layout {
+
+
+
+	border: 1px solid #ddd;
+
+
+
+	-webkit-border-radius: 6px;
+
+
+
+	-moz-border-radius: 6px;
+
+
+
+	border-radius: 6px;
+
+
+
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.075);
+
+
+
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.075);
+
+
+
+	box-shadow: 0 1px 2px rgba(0,0,0,.075);
+
+
+
+}
+
+
+
+
+
+
+
+#legend h5 {
+
+
+
+	float: left;
+
+
+
+}
+
+
+
+
+
+
+
+#legend {
+
+
+
+	display: none;	
+
+
+
+	position: absolute;
+
+
+
+	width: 540px;
+
+
+
+	padding: 0 10px 10px;
+
+
+
+	top: 50%;
+
+
+
+	left: 50%;
+
+
+
+	margin-left: -281px;
+
+
+
+	margin-top: -173px;
+
+
+
+	z-index: 9999;
+
+
+
+	background: white;
+
+
+
+}
+
+
+
+
+
+
+
+#legend .legend-holder {	
+
+
+
+	width: 100%;
+
+
+
+	height: 350px;
+
+
+
+	overflow-y: scroll;	
+
+
+
+}
+
+
+
+#polygon-menu {
+
+
+
+	*margin-top: -28px;
+
+
+
+	height: 38px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#autocomplete-address {
+
+
+
+	margin-top: -36px;
+
+
+
+	margin-bottom: 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#autocomplete-address .input-append {
+
+
+
+	margin-top: -7px;
+
+
+
+	margin-bottom: 2px;
+
+
+
+}
+
+
+
+
+
+
+
+.suggestions{
+
+
+
+	height: 420px;
+
+
+
+	overflow: scroll;
+
+
+
+}
+
+
+
+
+
+
+
+.result-house {	
+
+
+
+	margin-bottom: 5px;
+
+
+
+	border-bottom: 1px solid #ccc;
+
+
+
+	display: block;
+
+
+
+	padding-bottom: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+#helper {
+
+
+
+	z-index: 9999;
+
+
+
+	position: absolute;
+
+
+
+}
+
+
+
+
+
+
+
+.gradient, .accordion-heading {
+
+
+
+background: #eaeaea; /* Old browsers */
+
+
+
+background: -moz-linear-gradient(top,  #eaeaea 0%, #c1c1c1 100%); /* FF3.6+ */
+
+
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eaeaea), color-stop(100%,#c1c1c1)); /* Chrome,Safari4+ */
+
+
+
+background: -webkit-linear-gradient(top,  #eaeaea 0%,#c1c1c1 100%); /* Chrome10+,Safari5.1+ */
+
+
+
+background: -o-linear-gradient(top,  #eaeaea 0%,#c1c1c1 100%); /* Opera 11.10+ */
+
+
+
+background: -ms-linear-gradient(top,  #eaeaea 0%,#c1c1c1 100%); /* IE10+ */
+
+
+
+background: linear-gradient(to bottom,  #eaeaea 0%,#c1c1c1 100%); /* W3C */
+
+
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#c1c1c1',GradientType=0 ); /* IE6-9 */
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#polygon-menu li a:hover {
+
+
+
+border-bottom: 2px solid #005580;
+
+
+
+height: 12px;	
+
+
+
+}
+
+
+
+
+
+
+
+#polygon-menu li.disabled a:hover {
+
+
+
+border:0px;
+
+
+
+}
+
+
+
+
+
+
+
+#googletab2 {
+
+
+
+	overflow-x: hidden; 
+
+
+
+}
+
+
+
+
+
+
+
+#googletab2 img {
+
+
+
+	max-width: 97px;
+
+
+
+	max-height: 140px;
+
+
+
+	margin-right: 10px;
+
+
+
+	margin-bottom: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+#googletab2 img:hover {
+
+
+
+	opacity: 0.6;
+
+
+
+	cursor: pointer;
+
+
+
+}
+
+
+
+
+
+
+
+.gm-style-iw div:first-child {
+
+
+
+	overflow: hidden !important;
+
+
+
+}
+
+
+
+
+
+
+
+#loadMore {
+
+
+
+	display: none;
+
+
+
+}
