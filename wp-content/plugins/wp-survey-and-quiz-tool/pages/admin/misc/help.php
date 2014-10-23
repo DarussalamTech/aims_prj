@@ -1,7 +1,7 @@
 <div class="wrap">
 	
 	<div id="icon-tools" class="icon32"></div>
-	<h2>WP Survey And Quiz Tool - Help</h2>	
+	<h2>Aims Assesment Tool - Help</h2>	
 	
 	<?php if ( isset($successMessage) ){ ?>
 		<div class="updated" id="question_added"><?php echo $successMessage; ?></div>

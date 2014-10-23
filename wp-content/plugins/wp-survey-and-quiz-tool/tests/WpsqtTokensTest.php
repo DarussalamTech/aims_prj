@@ -7,7 +7,7 @@ require_once WPSQT_DIR.'lib/Wpsqt/Tokens.php';
 	 * @author Iain Cambridge
 	 * @copyright Fubra Limited 2010-2011, All rights reserved.
 	 * @license GPL v2
-	 * @package WP Survey And Quiz Tool
+	 * @package Aims Assesment Tool
 	 */
 
 class WpsqtTokensTest extends PHPUnit_Framework_TestCase {

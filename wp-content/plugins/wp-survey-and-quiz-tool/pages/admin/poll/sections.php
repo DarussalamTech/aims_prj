@@ -7,7 +7,7 @@
 	<?php } ?>
 	<div id="icon-tools" class="icon32"></div>
 	<h2>
-		WP Survey And Quiz Tool - Poll Sections
+		Aims Assesment Tool - Poll Sections
 	</h2>
 		
 	<?php require WPSQT_DIR.'pages/admin/misc/navbar.php'; ?>

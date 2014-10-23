@@ -9,7 +9,7 @@
 	 * @since 2.0
 	 * @copyright Fubra Limited 2010-2011, all rights reserved.
 	 * @license GPL v2
-	 * @package WP Survey And Quiz Tool
+	 * @package Aims Assesment Tool
 	 */
 
 class WpsqtSystemTest extends PHPUnit_Framework_TestCase {

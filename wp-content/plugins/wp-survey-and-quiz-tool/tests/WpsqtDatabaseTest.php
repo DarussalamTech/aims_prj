@@ -7,7 +7,7 @@
 	 * @author Iain Cambridge
 	 * @copyright Fubra Limited 2010-2011 (c)
 	 * @license GPL v2
-	 * @package WP Survey And Quiz Tool
+	 * @package Aims Assesment Tool
 	 * @since 2.0
 	 */
 

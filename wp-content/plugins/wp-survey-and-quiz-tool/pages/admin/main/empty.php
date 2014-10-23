@@ -1,7 +1,7 @@
 <div class="wrap">
 
 	<div id="icon-tools" class="icon32"></div>
-	<h2>WP Survey And Quiz Tool</h2>
+	<h2>Aims Assesment Tool</h2>
 	
 	<h3>Thanks for installing WP Survey And Quiz Tool</h3>
 	

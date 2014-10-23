@@ -17,7 +17,7 @@ if ( empty($validData) ){
 
 	<div id="icon-tools" class="icon32"></div>
 	<h2>
-		WP Survey And Quiz Tool - Survey Sections
+		Aims Assesment Tool - Survey Sections
 	</h2>
 	
 	<?php require WPSQT_DIR.'pages/admin/misc/navbar.php'; ?>

@@ -1,7 +1,7 @@
 <div class="wrap">
 	
 	<div id="icon-tools" class="icon32"></div>
-	<h2>WP Survey And Quiz Tool - Maintenance</h2>	
+	<h2>Aims Assesment Tool - Maintenance</h2>	
 	
 	<div id="nav">
 		<h2 class="nav-tab-wrapper">
