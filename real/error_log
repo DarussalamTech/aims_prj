@@ -1,2 +1,0 @@
-[02-Oct-2013 15:35:36] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home/thinkmls/public_html/mapsearch/system/database/drivers/mysql/mysql_result.php on line 152
-[02-Oct-2013 15:35:38] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home/thinkmls/public_html/mapsearch/system/database/drivers/mysql/mysql_result.php on line 152

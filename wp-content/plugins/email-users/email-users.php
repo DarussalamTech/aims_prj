@@ -133,7 +133,7 @@ function mailusers_get_default_plugin_settings($option = null)
 		// Mail User - Default setting Omit Display Names in Email Addresses
 		'mailusers_omit_display_names' => 'false',
 		// Mail User - The footer to use when using the post notification functionality
-		'mailusers_footer' => '<h5 style="border-top: 1px solid #eee;">' . __('Powered by', MAILUSERS_I18N_DOMAIN) . ' <a href="http://wordpress.org/plugins/email-users/">Email Users</a>.</h5>',
+		'mailusers_footer' => '<h5 style="border-top: 1px solid #eee;">' . __('Powered by', MAILUSERS_I18N_DOMAIN) . ' <a href="http://localhost/aims/assesment">Take Assement</a>.</h5>',
 		// Mail User - Default setting for Debug
 		'mailusers_debug' => 'false',
 		// Mail User - Default setting for Base64 Encode
