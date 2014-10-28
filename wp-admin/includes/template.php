@@ -672,7 +672,7 @@ function meta_form( $post = null ) {
 ?>
 </select>
 <input class="hide-if-js" type="text" id="metakeyinput" name="metakeyinput" value="" />
-<a href="#postcustomstuff" class="hide-if-no-js" onclick="jQuery('#metakeyinput, #metakeyselect, #enternew, #cancelnew').toggle();return false;">
+<a href="#postcustomstuff" class="hide-if-no-js" onClick="jQuery('#metakeyinput, #metakeyselect, #enternew, #cancelnew').toggle();return false;">
 <span id="enternew"><?php _e('Enter new'); ?></span>
 <span id="cancelnew" class="hidden"><?php _e('Cancel'); ?></span></a>
 <?php } else { ?>
@@ -856,17 +856,17 @@ function wp_dropdown_clientadmins( $selected = false ) {
 	$r = '';
 
         echo "All Roles => <pre>";
-        get_available_client_admins();
+        //get_available_client_admins();
        
 	//$editable_roles = array_reverse( get_editable_roles() );
 
-        foreach ( $editable_roles as $role => $details ) {
+       /* foreach ( $editable_roles as $role => $details ) {
 		$name = translate_user_role($details['name'] );
 		if ( $selected == $role ) // preselect specified role
 			$p = "\n\t<option selected='selected' onchange='view_subadmin();' value='" . esc_attr($role) . "'>$name</option>";
 		else
 			$r .= "\n\t<option value='" . esc_attr($role) . "'>$name</option>";
-	}
+	}*/
 	echo $p . $r;
 }
 

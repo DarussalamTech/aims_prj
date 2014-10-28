@@ -417,7 +417,7 @@ if ( apply_filters( 'show_password_fields', true ) ) : ?>
 			</select>
 		</td>
                 <?php wp_dropdown_clientadmins();
-                        die;?>
+                        ?>
                 <td><select name="role" id="role">
 			<?php
 			if ( !$new_user_role )
