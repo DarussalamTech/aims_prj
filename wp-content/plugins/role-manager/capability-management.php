@@ -25,8 +25,8 @@ class CapabilityManager {
      global $iwg_rolemanagement;
 
      $iwg_rolemanagement->check_admin_ref('iwg_rolemanager_create_cap');
-
-     if (empty($_POST['cap-name'])) {
+    
+     /*if (empty($_POST['cap-name'])) {
        $iwg_rolemanagement->error_number = 2000;
        $iwg_rolemanagement->handle_error();
      }
@@ -34,7 +34,7 @@ class CapabilityManager {
      if ( !$cap_name ) {
        $iwg_rolemanagement->error_number += 2000;
        $iwg_rolemanagement->handle_error();
-     }
+     }*/
      if ( $iwg_rolemanagement->already_exists($cap_name, 'cap') ) {
        $iwg_rolemanagement->handle_error($cap_name);
      }
@@ -210,10 +210,10 @@ class CapabilityManager {
              $iwg_rolemanagement->error_number = 2010;
              $iwg_rolemanagement->handle_error();
            }
-         } else {
+         } /*else {
            $iwg_rolemanagement->error_number += 2000;
            $iwg_rolemanagement->handle_error();
-         }
+         }*/
        }
      } else {
        $rcvd_caps = array();

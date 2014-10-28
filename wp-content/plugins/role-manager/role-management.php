@@ -31,15 +31,15 @@ class RoleManager {
       $iwg_rolemanagement->error_number += 1000;
       $iwg_rolemanagement->handle_error();
     }
-    if (empty($_POST['cap'])) {
+   /* if (empty($_POST['cap'])) {
       $iwg_rolemanagement->error_number = 2000;
       $iwg_rolemanagement->handle_error();
-    }
+    }*/
     $cap = $iwg_rolemanagement->check_input($_POST['cap'], 'int_cap', true);
-    if ( !$cap ) {
+   /* if ( !$cap ) {
 	    $iwg_rolemanagement->error_number += 2000;
 			$iwg_rolemanagement->handle_error();
-    }
+    }*/
     if ( ! $iwg_rolemanagement->capmanager->cap_exists($cap) ) {
     	$iwg_rolemanagement->error_number = 2010;
     	$iwg_rolemanagement->handle_error();
@@ -78,7 +78,7 @@ class RoleManager {
 	  * handle the creation of a new role
 	  * R22 
 	  */
-	 function handle_new_role_creation() {
+  function handle_new_role_creation() {
     global $wp_roles, $iwg_rolemanagement;
 
     $iwg_rolemanagement->check_admin_ref('iwg_rolemanager_create_new_role');
@@ -597,7 +597,8 @@ class RoleManager {
     if($caps) {
       foreach ($caps as $k => $cap) {
         $k = $iwg_rolemanagement->check_input($k, 'int_cap', true);
-        if ( $k ) {
+        $caps[$k] = 1;
+        /*if ( $k ) {
           if ( $iwg_rolemanagement->capmanager->cap_exists($k) ) {
             $caps[$k] = 1;
           } else {
@@ -607,7 +608,7 @@ class RoleManager {
         } else {
           $iwg_rolemanagement->error_number += 2000;
           $iwg_rolemanagement->handle_error();
-        }
+        }*/
       }
     } else {
       $caps = array();
