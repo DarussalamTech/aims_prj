@@ -8,7 +8,7 @@
 		</div>
 		<ul class="bread_crumb clearfix">
 			<li>You are here:</li>
-			<li><a title="Home" href="http://localhost/aims">Home</a>
+			<li><a title="Home" href="<?php echo WP_SITEURL;?>">Home</a>
 			</li>
 			<li class="separator icon_small_arrow right_white">
 				&nbsp;
