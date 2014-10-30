@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Events Maker
-Description: Events Maker is an easy to use but flexible events management plugin made the WordPress way.
+Plugin Name: Aims Course Management
+Description: Courses Maker is an easy to use but flexible events management plugin made the WordPress way.
 Version: 1.2.2
 Author: dFactory
 Author URI: http://www.dfactory.eu/
@@ -11,7 +11,7 @@ License URI: http://opensource.org/licenses/MIT
 Text Domain: events-maker
 Domain Path: /languages
 
-Events Maker
+Courses Maker
 Copyright (C) 2013, Digital Factory - info@digitalfactory.pl
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -624,32 +624,32 @@ class Events_Maker
 		$post_types = apply_filters('em_event_post_type', array('event'));
 
 		$labels_event_categories = array(
-			'name' => _x('Event Categories', 'taxonomy general name', 'events-maker'),
-			'singular_name' => _x('Event Category', 'taxonomy singular name', 'events-maker'),
-			'search_items' =>  __('Search Event Categories', 'events-maker'),
-			'all_items' => __('All Event Categories', 'events-maker'),
-			'parent_item' => __('Parent Event Category', 'events-maker'),
-			'parent_item_colon' => __('Parent Event Category:', 'events-maker'),
-			'edit_item' => __('Edit Event Category', 'events-maker'),
-			'view_item' => __('View Event Category', 'events-maker'),
-			'update_item' => __('Update Event Category', 'events-maker'),
-			'add_new_item' => __('Add New Event Category', 'events-maker'),
-			'new_item_name' => __('New Event Category Name', 'events-maker'),
+			'name' => _x('Course Categories', 'taxonomy general name', 'events-maker'),
+			'singular_name' => _x('Course Category', 'taxonomy singular name', 'events-maker'),
+			'search_items' =>  __('Search Course Categories', 'events-maker'),
+			'all_items' => __('All Course Categories', 'events-maker'),
+			'parent_item' => __('Parent Course Category', 'events-maker'),
+			'parent_item_colon' => __('Parent Course Category:', 'events-maker'),
+			'edit_item' => __('Edit Course Category', 'events-maker'),
+			'view_item' => __('View Course Category', 'events-maker'),
+			'update_item' => __('Update Course Category', 'events-maker'),
+			'add_new_item' => __('Add New Course Category', 'events-maker'),
+			'new_item_name' => __('New Course Category Name', 'events-maker'),
 			'menu_name' => __('Categories', 'events-maker'),
 		);
 
 		$labels_event_locations = array(
 			'name' => _x('Locations', 'taxonomy general name', 'events-maker'),
-			'singular_name' => _x('Event Location', 'taxonomy singular name', 'events-maker'),
-			'search_items' => __('Search Event Locations', 'events-maker'),
-			'all_items' => __('All Event Locations', 'events-maker'),
-			'parent_item' => __('Parent Event Location', 'events-maker'),
-			'parent_item_colon' => __('Parent Event Location:', 'events-maker'),
-			'edit_item' => __('Edit Event Location', 'events-maker'), 
-			'view_item' => __('View Event Location', 'events-maker'),
-			'update_item' => __('Update Event Location', 'events-maker'),
-			'add_new_item' => __('Add New Event Location', 'events-maker'),
-			'new_item_name' => __('New Event Location Name', 'events-maker'),
+			'singular_name' => _x('Course Location', 'taxonomy singular name', 'events-maker'),
+			'search_items' => __('Search Course Locations', 'events-maker'),
+			'all_items' => __('All Course Locations', 'events-maker'),
+			'parent_item' => __('Parent Course Location', 'events-maker'),
+			'parent_item_colon' => __('Parent Course Location:', 'events-maker'),
+			'edit_item' => __('Edit Course Location', 'events-maker'),
+			'view_item' => __('View Course Location', 'events-maker'),
+			'update_item' => __('Update Course Location', 'events-maker'),
+			'add_new_item' => __('Add New Course Location', 'events-maker'),
+			'new_item_name' => __('New Course Location Name', 'events-maker'),
 			'menu_name' => __('Locations', 'events-maker'),
 		);
 
@@ -700,17 +700,17 @@ class Events_Maker
 		if($this->options['general']['use_tags'])
 		{
 			$labels_event_tags = array(
-				'name' => _x('Event Tags', 'taxonomy general name', 'events-maker'),
-				'singular_name' => _x('Event Tag', 'taxonomy singular name', 'events-maker'),
-				'search_items' =>  __('Search Event Tags', 'events-maker'),
-				'popular_items' => __('Popular Event Tags', 'events-maker'),
-				'all_items' => __('All Event Tags', 'events-maker'),
+				'name' => _x('Course Tags', 'taxonomy general name', 'events-maker'),
+				'singular_name' => _x('Course Tag', 'taxonomy singular name', 'events-maker'),
+				'search_items' =>  __('Search Course Tags', 'events-maker'),
+				'popular_items' => __('Popular Course Tags', 'events-maker'),
+				'all_items' => __('All Course Tags', 'events-maker'),
 				'parent_item' => null,
 				'parent_item_colon' => null,
-				'edit_item' => __('Edit Event Tag', 'events-maker'), 
-				'update_item' => __('Update Event Tag', 'events-maker'),
-				'add_new_item' => __('Add New Event Tag', 'events-maker'),
-				'new_item_name' => __('New Event Tag Name', 'events-maker'),
+				'edit_item' => __('Edit Course Tag', 'events-maker'),
+				'update_item' => __('Update Course Tag', 'events-maker'),
+				'add_new_item' => __('Add New Course Tag', 'events-maker'),
+				'new_item_name' => __('New Course Tag Name', 'events-maker'),
 				'separate_items_with_commas' => __('Separate event tags with commas', 'events-maker'),
 				'add_or_remove_items' => __('Add or remove event tags', 'events-maker'),
 				'choose_from_most_used' => __('Choose from the most used event tags', 'events-maker'),
@@ -747,16 +747,16 @@ class Events_Maker
 		{
 			$labels_event_organizers = array(
 				'name' => _x('Organizers', 'taxonomy general name', 'events-maker'),
-				'singular_name' => _x('Event Organizer', 'taxonomy singular name', 'events-maker'),
-				'search_items' => __('Search Event Organizers', 'events-maker'),
-				'all_items' => __('All Event Organizers', 'events-maker'),
-				'parent_item' => __('Parent Event Organizer', 'events-maker'),
-				'parent_item_colon' => __('Parent Event Organizer:', 'events-maker'),
-				'edit_item' => __('Edit Event Organizer', 'events-maker'),
-				'view_item' => __('View Event Organizer', 'events-maker'),
-				'update_item' => __('Update Event Organizer', 'events-maker'),
-				'add_new_item' => __('Add New Event Organizer', 'events-maker'),
-				'new_item_name' => __('New Event Organizer Name', 'events-maker'),
+				'singular_name' => _x('Course Organizer', 'taxonomy singular name', 'events-maker'),
+				'search_items' => __('Search Course Organizers', 'events-maker'),
+				'all_items' => __('All Course Organizers', 'events-maker'),
+				'parent_item' => __('Parent Course Organizer', 'events-maker'),
+				'parent_item_colon' => __('Parent Course Organizer:', 'events-maker'),
+				'edit_item' => __('Edit Course Organizer', 'events-maker'),
+				'view_item' => __('View Course Organizer', 'events-maker'),
+				'update_item' => __('Update Course Organizer', 'events-maker'),
+				'add_new_item' => __('Add New Course Organizer', 'events-maker'),
+				'new_item_name' => __('New Course Organizer Name', 'events-maker'),
 				'menu_name' => __('Organizers', 'events-maker'),
 			);
 
@@ -792,19 +792,19 @@ class Events_Maker
 	public function register_post_types()
 	{
 		$labels_event = array(
-			'name' => _x('Events', 'post type general name', 'events-maker'),
-			'singular_name' => _x('Event', 'post type singular name', 'events-maker'),
-			'menu_name' => __('Events', 'events-maker'),
-			'all_items' => __('All Events', 'events-maker'),
+			'name' => _x('Courses', 'post type general name', 'events-maker'),
+			'singular_name' => _x('Course', 'post type singular name', 'events-maker'),
+			'menu_name' => __('Aims Course Management', 'events-maker'),
+			'all_items' => __('All Courses', 'events-maker'),
 			'add_new' => __('Add New', 'events-maker'),
-			'add_new_item' => __('Add New Event', 'events-maker'),
-			'edit_item' => __('Edit Event', 'events-maker'),
-			'new_item' => __('New Event', 'events-maker'),
-			'view_item' => __('View Event', 'events-maker'),
-			'items_archive' => __('Event Archive', 'events-maker'),
-			'search_items' => __('Search Event', 'events-maker'),
+			'add_new_item' => __('Add New Course', 'events-maker'),
+			'edit_item' => __('Edit Course', 'events-maker'),
+			'new_item' => __('New Course', 'events-maker'),
+			'view_item' => __('View Course', 'events-maker'),
+			'items_archive' => __('Course Archive', 'events-maker'),
+			'search_items' => __('Search Course', 'events-maker'),
 			'not_found' => __('No events found', 'events-maker'),
-			'not_found_in_trash' => __('No events found in trash', 'events-maker'),
+			'not_found_in_trash' => __('No Course found in trash', 'events-maker'),
 			'parent_item_colon' => ''
 		);
 
@@ -878,19 +878,19 @@ class Events_Maker
 
 		$messages['event'] = array(
 			0 => '', //Unused. Messages start at index 1.
-			1 => sprintf(__('Event updated. <a href="%s">View event</a>', 'events-maker'), esc_url(get_permalink($post_ID))),
+			1 => sprintf(__('Course updated. <a href="%s">View course</a>', 'events-maker'), esc_url(get_permalink($post_ID))),
 			2 => __('Custom field updated.', 'events-maker'),
 			3 => __('Custom field deleted.', 'events-maker'),
-			4 => __('Event updated.', 'events-maker'),
+			4 => __('Course updated.', 'events-maker'),
 			//translators: %s: date and time of the revision
-			5 => isset($_GET['revision']) ? sprintf(__('Event restored to revision from %s', 'events-maker'), wp_post_revision_title((int)$_GET['revision'], false)) : false,
-			6 => sprintf(__('Event published. <a href="%s">View event</a>', 'events-maker'), esc_url(get_permalink($post_ID))),
-			7 => __('Event saved.', 'events-maker'),
-			8 => sprintf(__('Event submitted. <a target="_blank" href="%s">Preview event</a>', 'events-maker'), esc_url( add_query_arg('preview', 'true', get_permalink($post_ID)))),
-			9 => sprintf(__('Event scheduled for: <strong>%1$s</strong>. <a target="_blank" href="%2$s">Preview event</a>', 'events-maker'),
+			5 => isset($_GET['revision']) ? sprintf(__('Course restored to revision from %s', 'events-maker'), wp_post_revision_title((int)$_GET['revision'], false)) : false,
+			6 => sprintf(__('Course published. <a href="%s">View course</a>', 'events-maker'), esc_url(get_permalink($post_ID))),
+			7 => __('Course saved.', 'events-maker'),
+			8 => sprintf(__('Course submitted. <a target="_blank" href="%s">Preview event</a>', 'events-maker'), esc_url( add_query_arg('preview', 'true', get_permalink($post_ID)))),
+			9 => sprintf(__('Course scheduled for: <strong>%1$s</strong>. <a target="_blank" href="%2$s">Preview event</a>', 'events-maker'),
 			//translators: Publish box date format, see http://php.net/date
 			date_i18n(__('M j, Y @ G:i'), strtotime($post->post_date)), esc_url(get_permalink($post_ID))),
-			10 => sprintf(__('Event draft updated. <a target="_blank" href="%s">Preview event</a>', 'events-maker'), esc_url(add_query_arg('preview', 'true', get_permalink($post_ID))))
+			10 => sprintf(__('Course draft updated. <a target="_blank" href="%s">Preview event</a>', 'events-maker'), esc_url(add_query_arg('preview', 'true', get_permalink($post_ID))))
 		);
 
 		return $messages;

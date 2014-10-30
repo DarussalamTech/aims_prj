@@ -59,7 +59,7 @@ Refer the <a href="http://cfdbplugin.com/">Plugin Site</a>
 
 = Where do I see the data? =
 
-* In the admin page, "Contact Form DB"
+* In the admin page, "Aims Form Database"
 
 = Can I display form data on a non-admin web page or in a post? =
 

@@ -1,5 +1,6 @@
 <?php
 // Set up the token object
+
 require_once WPSQT_DIR.'/lib/Wpsqt/Tokens.php';
 $objTokens = Wpsqt_Tokens::getTokenObject();
 $objTokens->setDefaultValues();

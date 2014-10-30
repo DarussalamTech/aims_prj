@@ -19,7 +19,7 @@
 		<?php } else { ?>
 			<form method="post" action="<?php echo esc_url($_SERVER['REQUEST_URI']); ?>">
 			
-	 			<p style="text-align:center;">This will create a backup of all the WPSQT databases</p>
+	 			<p style="text-align:center;">This will create a backup of all the Aims Assesment Tool databases</p>
 				<p style="text-align:center;">Backups are saved to <em>db-backups</em> with the name <em>db-(hour)(minute)(second)-(day)(month)(year).sql</em></p>
 				
 				<p style="text-align:center;">Please enter your database information.</p>

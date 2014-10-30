@@ -21,7 +21,7 @@ class Wpsqt_Core {
 
 	public function __construct(){
 
-		$this->_addPage(WPSQT_PAGE_MAIN, "WPSQT", "WPSQT", "wpsqt-manage", "Main")
+		$this->_addPage(WPSQT_PAGE_MAIN, "Aims Assesment Tool", "Aims Assesment Tool", "wpsqt-manage", "Main")
 		->_addPage(WPSQT_PAGE_MAIN.'&type=quiz', "Quizzes", "Quizzes", "wpsqt-manage", "Quizzes", WPSQT_PAGE_MAIN)
 		->_addPage(WPSQT_PAGE_MAIN.'&type=survey', "Surveys", "Surveys", "wpsqt-manage", "Surveys", WPSQT_PAGE_MAIN)
 		->_addPage(WPSQT_PAGE_MAIN.'&type=poll', "Polls", "Polls", "wpsqt-manage", "Polls", WPSQT_PAGE_MAIN)

@@ -1,6 +1,6 @@
 <?php
 /*
-   Plugin Name: Contact Form DB
+   Plugin Name: Aims Form Database
    Plugin URI: http://wordpress.org/extend/plugins/contact-form-7-to-database-extension/
    Version: 2.8.16
    Author: Michael Simpson

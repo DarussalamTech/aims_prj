@@ -965,7 +965,7 @@ class CF7DBPlugin extends CF7DBPluginLifeCycle {
 
         //create new top-level menu
         add_menu_page($displayName,
-                        __('Contact Form DB', 'contact-form-7-to-database-extension'),
+                        __('Aims Form Database', 'contact-form-7-to-database-extension'),
                       $this->roleToCapability($roleAllowed),
                       $menuSlug, //$this->getDBPageSlug(),
                       array(&$this, 'whatsInTheDBPage'));

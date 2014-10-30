@@ -55,7 +55,7 @@ If you have upgraded from a version 1.x.x and nothing appears to be saving, plea
 1. Make sure you have the latest version of the plugin
 1. Deactivate plugin
 1. Activate plugin
-1. In the WPSQT menu click Maintenance
+1. In the Aims Assesment Tool menu click Maintenance
 1. Select the Upgrade tab
 1. Click the Upgrade button
 1. Repeat all previous steps once more
@@ -217,9 +217,9 @@ Any further issues then feel free to create a thread on the <a href="http://word
 = 2.8.3 =
 
 * Added %SCORE_PERCENTAGE% replacement token
-* Changed the subject for emails sent from WPSQT
+* Changed the subject for emails sent from Aims Assesment Tool
 * Changed the email handler
-* Only loaded the jquery files on a WPSQT page
+* Only loaded the jquery files on a Aims Assesment Tool page
 
 = 2.8.2 =
 
@@ -267,7 +267,7 @@ Any further issues then feel free to create a thread on the <a href="http://word
 
 * Added labels to the pie charts
 * Added ability to change likert scale
-* Added option to choose which role is required to admin WPSQT
+* Added option to choose which role is required to admin Aims Assesment Tool
 * Added limit to one submission per WP user
 * Fixed survey result deleting
 * Changed the text of the next button to 'Submit' if on the last section
@@ -402,7 +402,7 @@ Any further issues then feel free to create a thread on the <a href="http://word
 
 * Yet again fixed the positioning of a quiz/survey - all fixed and its not being touched again!
 * Fixed the marking of quizzes unable for auto mark
-* Added ability to backup the WPSQT databases - will be improved in a later release
+* Added ability to backup the Aims Assesment Tool databases - will be improved in a later release
 
 = 2.2.1 =
 

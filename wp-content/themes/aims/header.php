@@ -17,8 +17,7 @@
 		?>
 		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" />
 		<?php include("custom_colors.php"); ?>
-                <script type="text/javascript" src="https://mylivechat.com/chatinline.aspx?hccid=30624529"></script>
-	</head>
+               	</head>
 	<body <?php body_class(); ?>>
 		<div class="header_container">
 			<div class="header clearfix">

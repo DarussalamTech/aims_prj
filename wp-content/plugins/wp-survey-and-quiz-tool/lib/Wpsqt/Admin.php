@@ -203,7 +203,7 @@ END;
 	public function show_page( $testMode = false ){
 
 		if ( !array_key_exists($_GET['page'],$this->_pages) ){
-			wp_die("Invalid WPSQT page request for ".$_GET['page']);
+			wp_die("Invalid  Aims Assesment Tool page request for ".$_GET['page']);
 		}
 
 		$module = $this->_pages[$_GET['page']]['module'];

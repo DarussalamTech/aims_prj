@@ -855,7 +855,7 @@ function wp_dropdown_clientadmins( $selected = false ) {
 	$p = '';
 	$r = '';
 
-        echo "All Roles => <pre>";
+        //echo "All Roles => <pre>";
         //get_available_client_admins();
        
 	//$editable_roles = array_reverse( get_editable_roles() );

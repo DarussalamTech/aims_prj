@@ -58,21 +58,21 @@ class Events_Maker_Metaboxes
 				'em_'.$post_type.'_metaboxes',
 				array(
 					'event-options-box' => array(
-						'title' => __('Event Display Options', 'events-maker'),
+						'title' => __('Course Display Options', 'events-maker'),
 						'callback' => array(&$this, 'event_options_cb'),
 						'post_type' => $post_type,
 						'context' => 'side',
 						'priority' => 'core'
 					),
 					'event-date-time-box' => array(
-						'title' => __('Event Date and Time', 'events-maker'),
+						'title' => __('Course Date and Time', 'events-maker'),
 						'callback' => array(&$this, 'event_date_time_cb'),
 						'post_type' => $post_type,
 						'context' => 'normal',
 						'priority' => 'high'
 					),
 					'event-cost-tickets-box' => array(
-						'title' => __('Event Tickets', 'events-maker'),
+						'title' => __('Course Tickets', 'events-maker'),
 						'callback' => array(&$this, 'event_tickets_cb'),
 						'post_type' => $post_type,
 						'context' => 'normal',
@@ -235,7 +235,7 @@ class Events_Maker_Metaboxes
 
 
 	/**
-	 * Event date & time metabox callback
+	 * Course date & time metabox callback
 	*/
 	public function event_date_time_cb($post)
 	{
@@ -457,7 +457,7 @@ class Events_Maker_Metaboxes
 
 
 	/**
-	 * Event tickets metabox callback
+	 * Course tickets metabox callback
 	*/
 	public function event_tickets_cb($post)
 	{
@@ -531,7 +531,7 @@ class Events_Maker_Metaboxes
 
 
 	/**
-	 * Event options metabox callback
+	 * Course options metabox callback
 	*/
 	public function event_options_cb($post)
 	{

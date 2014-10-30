@@ -47,7 +47,7 @@
 						<option value="<?php echo $role; ?>" <?php if ($requiredRole == $role) { ?> selected="yes"<?php }?>><?php echo $name; ?></option>
 						<?php } ?>
 				</select></td>
-				<td>This is the group of users allowed to use the WPSQT plugin.</td>
+				<td>This is the group of users allowed to use the Aims Assesment Tool plugin.</td>
 			</tr>
 			<tr>
 				<th scope="row">Notification Email</th>

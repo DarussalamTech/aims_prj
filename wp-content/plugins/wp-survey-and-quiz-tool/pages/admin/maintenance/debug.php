@@ -41,7 +41,7 @@
 			</p>
 		
 			<p style="text-align:center;">This will run every single possible database upgrade.</p>
-			<p style="text-align:center;font-weight: bold;">This can easily corrupt the entire WPSQT database. Only run this if you have to or are instructed to. Make sure you have a backup.</p>
+			<p style="text-align:center;font-weight: bold;">This can easily corrupt the entire Aims Assesment Tool database. Only run this if you have to or are instructed to. Make sure you have a backup.</p>
 		
 		</form>
 	</div>	

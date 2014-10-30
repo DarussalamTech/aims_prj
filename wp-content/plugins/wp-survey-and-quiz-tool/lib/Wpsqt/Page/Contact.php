@@ -46,15 +46,15 @@ class Wpsqt_Page_Contact extends Wpsqt_Page {
 				if ( empty($errorArray) ){
 					$fromEmail = ( get_option('wpsqt_from_email') ) ? get_option('wpsqt_from_email') : get_option('admin_email');
 					
-		   			$headers  = 'From: WPSQT Contact Form'. PHP_EOL;
+		   			$headers  = 'From: Aims Assesment Tool Contact Form'. PHP_EOL;
 		   			$headers .= 'Reply-To: '.trim($_POST['name']).' <'.$_POST['email'].'>'.PHP_EOL;
 		   			$message  = 'From: '.trim($_POST['name']).' <'.$fromEmail.'>'.PHP_EOL;
-		   			$message .= 'WPSQT Version: '.WPSQT_VERSION.PHP_EOL;
+		   			$message .= 'Aims Assesment Tool Version: '.WPSQT_VERSION.PHP_EOL;
 		   			$message .= 'PHP Version: '.PHP_VERSION.PHP_EOL;
 		   			$message .= 'WordPress Version: '.$wp_version.PHP_EOL;
 		   			$message .= 'Message: '.esc_html(wp_kses_stripslashes($_POST['message'])).PHP_EOL;
 		   			   			
-					if ( !wp_mail(WPSQT_CONTACT_EMAIL, 'WPSQT : '.stripslashes($_POST['reason']), $message, $headers) ){
+					if ( !wp_mail(WPSQT_CONTACT_EMAIL, 'Aims Assesment Tool : '.stripslashes($_POST['reason']), $message, $headers) ){
 						$errorArray[] = 'Unable to send email, please check wordpress settings';
 					} else {
 						$successMessage = 'Email sent! Thank you for reponse';

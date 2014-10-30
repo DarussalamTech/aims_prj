@@ -38,8 +38,8 @@ class WpsqtHooksTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals( 
 						array( 
 						  array(
-						  	"WPSQT","manage_options","wpsqt-menu",
-						  	"WPSQT","menu-top toplevel_page_wpsqt-menu",
+						  	"Aims Assesment Tool","manage_options","wpsqt-menu",
+						  	"Aims Assesment Tool","menu-top toplevel_page_wpsqt-menu",
 						    "toplevel_page_wpsqt-menu","dashicons-clipboard"
 						  ),
 						  array(

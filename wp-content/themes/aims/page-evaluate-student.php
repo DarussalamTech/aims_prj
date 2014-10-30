@@ -21,17 +21,7 @@
 	<div class="quiz">
 		<h1>AAAcho</h1>
 		<form action="">
-			<div class="wpst_question">
-				<div class="quest_name">1. In relation to patterns, communication is divided into:</div>
-				<ul class="wpsqt_multiple_question">
-					<li><input type="checkbox" id="answer_47_1" value="1" name="answers[0][]"> <label for="answer_47_1">b) Communication according to field of work</label> 
-				</li>
-							
-					
-				</ul>
-			
-				</div>
-			 
+ 
 		</form>
 
 	</div>

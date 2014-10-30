@@ -8,7 +8,7 @@
 	 * @author Ollie Armstrong
 	 * @copyright Fubra Limited 2010-2011, all rights reserved.
   	 * @license http://www.gnu.org/licenses/gpl.html GPL v3 
-  	 * @package WPSQT
+  	 * @package Aims Assesment Tool
 	 */
 
 class Wpsqt_Page_Maintenance_Backup extends Wpsqt_Page {
