@@ -30,8 +30,11 @@ a:hover
 p
 {
 	padding: 1em 0;
-	color:#000000;
+	color:#101010;
 	text-align:inherit;
+        font-family:"candara";
+        font-size: 18px;
+        line-height: 24px;
 }
 .relative
 {
@@ -308,12 +311,11 @@ h5
 /* --- page --- */
 .theme_page
 {
-	width: 960px;
+	width: 930px;
 	margin-left: auto;
 	margin-right: auto;
-/*	padding-bottom: 30px; */
-	margin-bottom:30px;
-	background:#CCCCCC;
+	background:#f5f5f5;
+        padding:130px 30px 30px 30px;
 }
 .page_layout
 {
@@ -384,7 +386,7 @@ h5
 }
 .search .search_input:focus
 {
-	width: 184px;
+	/*width: 184px;*/
 }
 .search input[type='submit']
 {
@@ -393,7 +395,14 @@ h5
 	cursor: pointer;
 	background-position: right center;
 	background-repeat: no-repeat;
-	padding-right: 20px;
+	/*padding-right: 20px;*/
+        color: #000;
+        background: #FF1313;
+        border: none;
+        color: #fff;
+        line-height: 16px;
+        font-size: 18px;
+        font-family: "candara";
 }
 /* --- bread crumb --- */
 .bread_crumb
@@ -2279,3 +2288,8 @@ body{background:#FFF !important;}
 .quiz > h1{font-size:30px;font-family: "candara";}
 .wpst_question ul li label{font-family: "candara"; font-size:16px; color:#000;}
 .timer{font-family: "candara"; font-size:18px; text-align:right; }
+.signup_student form input{width: 400px; height: 30px; border: 1px solid #ccc; margin: 5px 0;}
+.signup_student form input[type="submit"]{width: 150px; color: #fff; font-family: "candara"; font-size: 16px; height: 30px; border: none;}
+.company{width: 550px; color: #fff; font-family: "candara"; font-size: 16px; height: 30px; border: none; margin: 0 auto; text-align: left;}
+.company select{width: 400px; height: 30px; border: 1px solid #ccc;}
+.company label {display: inline-block; width: 73px;}

@@ -2555,6 +2555,7 @@ function admin_url( $path = '', $scheme = 'admin' ) {
  * @return string Admin url link with optional path appended.
 */
 function get_admin_url( $blog_id = null, $path = '', $scheme = 'admin' ) {
+    
 	$url = get_site_url($blog_id, 'wp-admin/', $scheme);
 
 	if ( $path && is_string( $path ) )

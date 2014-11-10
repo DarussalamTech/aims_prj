@@ -224,7 +224,8 @@ function get_available_client_admins() {
     echo "<pre>";
     $client_admins = get_users($args=array('role'=>'Clientadmin'));
     $list_client_admins = array();
-    $count = 0;
+    $count = 0;    global $wpdb;
+
     foreach($client_admins as $client_admin) {
         $list_client_admins[$count]['user_name'] = $client_admin->data->user_nicename;
         $list_client_admins[$count]['user_title'] = $client_admin->data->display_name;
@@ -233,24 +234,24 @@ function get_available_client_admins() {
 
     
 print_r($list_client_admins);
-die;
-//get_users($args=array('role'=>'Clientadmin')));
+//die;
+    //get_users($args=array('role'=>'Clientadmin')));
     //die;
-    //$query = $wpdb->prepare("SELECT option_value FROM $wpdb->options WHERE option_name = 'wp_user_roles'",get_current_user_id());
+    $query = $wpdb->prepare("SELECT option_value FROM $wpdb->options WHERE option_name = 'wp_user_roles'",get_current_user_id());
 
-//    $client_admins = $wpdb->get_results($query);
-  //  echo "Clietn Admins => <pre>";
-   // print_r($client_admins);
-    //print_r($client_admins["0"]->option_value);
-    //var_dump(json_decode($client_admins[0]->option_value->a));
-    //print_r(unserialize($client_admins["0"]->option_value));
-    //$json_result = stripslashes(json_encode($client_admins[0]->option_value)) ;
-    //$resultant_array = array('user_id' => get_current_user_id(),'client_admins'=>$json_result->a);
-   // $resultant_array = array('user_id' => get_current_user_id(),'client_admins'=>$client_admins["0"]->option_value->a);
+     $client_admins = $wpdb->get_results($query);
+     echo "Clietn Admins => <pre>";
+     print_r($client_admins);
+     print_r($client_admins["0"]->option_value);
+     var_dump(json_decode($client_admins[0]->option_value->a));
+     print_r(unserialize($client_admins["0"]->option_value));
+     $json_result = stripslashes(json_encode($client_admins[0]->option_value)) ;
+     $resultant_array = array('user_id' => get_current_user_id(),'client_admins'=>$json_result->a);
+     $resultant_array = array('user_id' => get_current_user_id(),'client_admins'=>$client_admins["0"]->option_value->a);
 
-  ///  print_r($resultant_array);
-    //die;
-    return $client_admins;
+     print_r($resultant_array);
+  //  die;
+     return $client_admins;
 }
 
 /**
