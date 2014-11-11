@@ -814,10 +814,10 @@ default:
 			elseif ( !$user->has_cap('edit_posts') ){
 				$redirect_to = admin_url('profile.php');
 			}
-			elseif ( "student" == $user->roles[0] ){
+			elseif ( "Student" == $user->roles[0] ){
 				$redirect_to = site_url()."/join-us";
 			}
-                        elseif("student" == $user->role){
+                        elseif("Student" == $user->role){
                             $redirect_to = site_url()."/join-us";
                         }
                        // var_dump($user->roles[0]);
