@@ -24,7 +24,7 @@ function signupuser() {
 
         <div  class="quest_name" style="text-align: center">
     <? echo 'Welcome, ' . $current_user->user_login; ?> </div>
- <div  class="quest_name" style="text-align: center"> Click Here To View Avalaible Courses <a title="Login" href="<?php echo WP_SITEURL . '/student-available-courses'; ?>">Available Courses</a>
+ <div  class="quest_name" style="text-align: center"> Click Here To View Avalaible Courses <a title="Available Courses" href="<?php echo WP_SITEURL . '/student-available-courses'; ?>">Available Courses</a>
 
     </div>
 
@@ -97,7 +97,7 @@ function signupuser() {
                 }
 ?>
                 <div  class="quest_name" style="text-align: center">
-                    Registered successfully Please <a title="Login" href="<?php echo WP_SITEURL . '/wp-login.php'; ?>">Login</a>
+                    Registered successfully.
                 </div>
 <?
             }
@@ -128,6 +128,9 @@ function signupuser() {
         <div><input class="button-secondary" type="submit"  value="sign-up"></div>
     </form>
 </div>
+    <div  class="quest_name" style="text-align: center">
+        <a title="Login" href="<?php echo WP_SITEURL . '/wp-login.php'; ?>">Login</a>
+    </div>
 <?php
         }
     }
