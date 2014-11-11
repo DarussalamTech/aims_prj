@@ -48,7 +48,7 @@ function student_available_courses() {
             //  print_r($student_courses);die;
 ?>
 
-<table border="1" class="quest_name" style="text-align: center" align="center">
+<table border="2" class="" style="text-align: center; color: black;" cellpadding="5" align="center">
 
 <?
             foreach ($student_courses as $student_course) {
