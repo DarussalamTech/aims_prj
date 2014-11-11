@@ -23,7 +23,9 @@ function signupuser() {
 ?>
 
         <div  class="quest_name" style="text-align: center">
-    <? echo 'Welcome, ' . $current_user->user_login; ?>
+    <? echo 'Welcome, ' . $current_user->user_login; ?> </div>
+ <div  class="quest_name" style="text-align: center"> Click Here To View Avalaible Courses <a title="Login" href="<?php echo WP_SITEURL . '/student-available-courses'; ?>">Available Courses</a>
+
     </div>
 
 <? } else {
@@ -56,7 +58,7 @@ function signupuser() {
                     'user_email' => $_POST["user_email"],
                     'user_url' => $_POST["user_url"],
                     'user_registered' => date('m/d/Y h:i:s a', time()),
-                   // 'role' => "student",
+                    'role' => "student",
                 );
 
                 $res_register_student = wp_insert_user($register_student);
@@ -73,12 +75,14 @@ function signupuser() {
                 $table = "aims_student";
               
                 $student_data = array(
-                    'std_wp_user_id' => $res_register_student,
+                    'std_wp_user_id' => intval($res_register_student),
                     'aims_student_name' => $_POST["user_login"],
                     'aims_student_email' => $_POST["user_email"],
                     'aims_student_company_id' => $_POST["company"]
                 );
-
+                /*$format = array(
+                    '%i', '%s', '%s', '%i'
+                );*/
                  $student_added = $wpdb->insert($table, $student_data);
                  echo $student_added;
                 /*                 * ************************************************************* */
@@ -93,8 +97,7 @@ function signupuser() {
                 }
 ?>
                 <div  class="quest_name" style="text-align: center">
-                    Registered successfully Please<a title="Login" href="<?php echo WP_SITEURL . '/wp-login.php'; ?>">Login</a>
-
+                    Registered successfully Please <a title="Login" href="<?php echo WP_SITEURL . '/wp-login.php'; ?>">Login</a>
                 </div>
 <?
             }

@@ -416,16 +416,18 @@ if ( apply_filters( 'show_password_fields', true ) ) : ?>
 			?>
 			</select>
 		</td>
-                <?php wp_dropdown_clientadmins();
+                <?php //wp_dropdown_clientadmins();
+                  //  $client_admins = get_available_client_admins();
+                   // print_r($client_admins);
                         ?>
-                <td><select name="role" id="role">
-			<?php/*
-			if ( !$new_user_role )
-				$new_user_role = !empty($current_role) ? $current_role : get_option('default_role');
-			wp_dropdown_roles($new_user_role);
-			*/?>
+               <!-- <td><select name="role" id="role">
+			<?php
+			//if ( !$client_admins )
+				//$client_admins = !empty($client_admins) ? $client_admins : get_option('default_role');
+			//wp_dropdown_clientadmins();
+			?>
 			</select>
-		</td>
+		</td>!-->
 	</tr>
 	<?php if ( is_multisite() && is_super_admin() ) { ?>
 	<tr>

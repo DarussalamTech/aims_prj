@@ -811,17 +811,17 @@ default:
 			elseif ( is_multisite() && !$user->has_cap('read') ){
 				$redirect_to = get_dashboard_url( $user->ID );
 			}
-			/*elseif ( !$user->has_cap('edit_posts') ){
+			elseif ( !$user->has_cap('edit_posts') ){
 				$redirect_to = admin_url('profile.php');
 			}
 			elseif ( "student" == $user->roles[0] ){
 				$redirect_to = site_url()."/assesment";
-			}*/
+			}
                         elseif("student" == $user->role){
                             $redirect_to = site_url()."/assesment";
                         }
-                        var_dump($user->roles[0]);
-                       var_dump($user->role);//die();
+                       // var_dump($user->roles[0]);
+                     //  var_dump($user->role);//die();
 		}
 		wp_safe_redirect($redirect_to);
 		exit();

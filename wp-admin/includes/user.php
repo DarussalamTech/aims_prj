@@ -221,19 +221,20 @@ function get_editable_roles() {
  */
 function get_available_client_admins() {
     global $wpdb;
-    echo "<pre>";
+   // echo "<pre>";
     $client_admins = get_users($args=array('role'=>'Clientadmin'));
     $list_client_admins = array();
     $count = 0;    global $wpdb;
-
+  //  print_r($client_admins);
     foreach($client_admins as $client_admin) {
         $list_client_admins[$count]['user_name'] = $client_admin->data->user_nicename;
         $list_client_admins[$count]['user_title'] = $client_admin->data->display_name;
+        $list_client_admins[$count]['id'] = $client_admin->data->ID;
         $count++;
     }
 
-    
-print_r($list_client_admins);
+   // print_r($list_client_admins);
+/*
 //die;
     //get_users($args=array('role'=>'Clientadmin')));
     //die;
@@ -242,6 +243,7 @@ print_r($list_client_admins);
      $client_admins = $wpdb->get_results($query);
      echo "Clietn Admins => <pre>";
      print_r($client_admins);
+     die;
      print_r($client_admins["0"]->option_value);
      var_dump(json_decode($client_admins[0]->option_value->a));
      print_r(unserialize($client_admins["0"]->option_value));
@@ -249,9 +251,10 @@ print_r($list_client_admins);
      $resultant_array = array('user_id' => get_current_user_id(),'client_admins'=>$json_result->a);
      $resultant_array = array('user_id' => get_current_user_id(),'client_admins'=>$client_admins["0"]->option_value->a);
 
-     print_r($resultant_array);
+    // print_r($resultant_array);
   //  die;
-     return $client_admins;
+     return $client_admins;*/
+    return $list_client_admins;
 }
 
 /**
