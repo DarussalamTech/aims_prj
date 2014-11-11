@@ -53,10 +53,10 @@ function student_available_courses() {
 <?
             foreach ($student_courses as $student_course) {
                 echo "<tr>";
-              //  echo "<td><a href='http://example.com'><div style='height:100%;width:100%'>hello world</div></a></td>";
+                echo "<td><a href='".WP_SITEURL."/$student_course->course_name'/><div style='height:100%;width:100%'>$student_course->course_name</div></a></td>";
               
 
-                echo "<td>" . $student_course->course_name . "</td>";
+              //  echo "<td>" . $student_course->course_name . "</td>";
                 echo "</tr>";
             }
 ?>

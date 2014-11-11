@@ -815,10 +815,10 @@ default:
 				$redirect_to = admin_url('profile.php');
 			}
 			elseif ( "student" == $user->roles[0] ){
-				$redirect_to = site_url()."/assesment";
+				$redirect_to = site_url()."/join-us";
 			}
                         elseif("student" == $user->role){
-                            $redirect_to = site_url()."/assesment";
+                            $redirect_to = site_url()."/join-us";
                         }
                        // var_dump($user->roles[0]);
                      //  var_dump($user->role);//die();
