@@ -97,7 +97,7 @@ function signupuser() {
                 }
 ?>
                 <div  class="quest_name" style="text-align: center">
-                    Registered successfully.
+                    Registered successfully.<a title="Login" href="<?php echo WP_SITEURL . '/wp-login.php'; ?>">Login</a>
                 </div>
 <?
             }
