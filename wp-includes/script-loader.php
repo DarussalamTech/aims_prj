@@ -96,6 +96,7 @@ function wp_default_scripts( &$scripts ) {
 		'textdirection' => esc_attr( __('text direction') ),
 		'toggleTextdirection' => esc_attr( __('Toggle Editor Text Direction') )
 	) );
+	$scripts->add( 'aims', "/wp-includes/js/aims.js", array('heartbeat'), false, 1 );
 
 	$scripts->add( 'colorpicker', "/wp-includes/js/colorpicker$suffix.js", array('prototype'), '3517m' );
 

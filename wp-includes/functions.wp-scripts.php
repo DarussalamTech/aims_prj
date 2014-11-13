@@ -210,6 +210,11 @@ function wp_enqueue_script( $handle, $src = false, $deps = array(), $ver = false
 	$wp_scripts->enqueue( $handle );
 }
 
+function test_function(){
+
+    alert('im here yasir');
+}
+
 /**
  * Remove a previously enqueued script.
  *

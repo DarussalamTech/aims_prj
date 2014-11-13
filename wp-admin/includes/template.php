@@ -850,6 +850,15 @@ function wp_dropdown_roles( $selected = false ) {
 			$r .= "\n\t<option value='" . esc_attr($role) . "'>$name</option>";
 	}
 	echo $p . $r;
+       //var_dump($editable_roles);die;
+       /* if('Student' == $name){
+            ?>
+            <td><select name="role" id="role">
+                 <? wp_dropdown_clientadmins();
+                 ?>
+             </select></td>
+             <?
+        }*/
 }
 function wp_dropdown_clientadmins( $selected = false ) {
 	$p = '';

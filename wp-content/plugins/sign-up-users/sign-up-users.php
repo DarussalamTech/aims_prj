@@ -17,18 +17,41 @@ add_shortcode('signupform', 'signupuser');
 
 function signupuser() {
     global $wpdb;
-
-    if (is_user_logged_in ()) {
+    global $post;
+   // $redirect_to = site_url()."/join-us";
+    //echo $redirect_to;
+   //wp_safe_redirect($redirect_to);
+   // header("Location: http://www.example.com/");
+    //exit;
+    $slug = get_post( $post )->post_name;
+    //$page = $_SERVER['REQUEST_URI'];
+    //$uri = home_url().$page;
+    //var_dump($page);
+    //echo $uri;
+    //var_dump($slug); die;
+    if (is_user_logged_in () && $slug == 'sign-in') {
         $current_user = wp_get_current_user();
 ?>
 
         <div  class="quest_name" style="text-align: center">
     <? echo 'Welcome, ' . $current_user->user_login; ?> </div>
- <div  class="quest_name" style="text-align: center"> Click Here To View Avalaible Courses <a title="Login" href="<?php echo WP_SITEURL . '/student-available-courses'; ?>">Available Courses</a>
+ <div  class="quest_name" style="text-align: center"> Click Here To View Avalaible Courses <a title="courses" href="<?php echo WP_SITEURL . '/student-available-courses'; ?>">Available Courses</a>
 
     </div>
 
-<? } else {
+<? }elseif($slug == 'sign-in'){
+        wp_safe_redirect(WP_SITEURL.'/wp-login.php');
+    ?>
+
+           <div  class="quest_name" style="text-align: center">
+                    Registered successfully Please <a title="Login" href="<?php echo WP_SITEURL . '/wp-login.php'; ?>">Login</a>
+            </div>
+    <?
+    
+    
+    
+}else {
+
 ?>
         <div  class="quest_name" style="text-align: center">
             Register
@@ -80,11 +103,11 @@ function signupuser() {
                     'aims_student_email' => $_POST["user_email"],
                     'aims_student_company_id' => $_POST["company"]
                 );
-                /*$format = array(
+                /*$format = array($table
                     '%i', '%s', '%s', '%i'
                 );*/
                  $student_added = $wpdb->insert($table, $student_data);
-                 echo $student_added;
+              //   echo $student_added;
                 /*                 * ************************************************************* */
                 //set user role
                 /*                 * ************************************************************* */

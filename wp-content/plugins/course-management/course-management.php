@@ -16,7 +16,7 @@
 add_shortcode('course-management', 'course_mangement');
 
 function course_mangement() {
-    
+    $this->add_action( 'admin_menu' );
 
     if (!is_user_logged_in ()) {
       

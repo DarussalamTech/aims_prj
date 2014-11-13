@@ -38,6 +38,7 @@ Please click the following link to activate your user account:
 }
 
 if ( isset($_REQUEST['action']) && 'adduser' == $_REQUEST['action'] ) {
+    echo '41'; die;
 	check_admin_referer( 'add-user', '_wpnonce_add-user' );
 
 	$user_details = null;
@@ -92,14 +93,16 @@ Please click the following link to confirm the invite:
 	wp_redirect( $redirect );
 	die();
 } elseif ( isset($_REQUEST['action']) && 'createuser' == $_REQUEST['action'] ) {
+   // echo '95'; die;
 	check_admin_referer( 'create-user', '_wpnonce_create-user' );
 
 	if ( ! current_user_can('create_users') )
 		wp_die(__('Cheatin&#8217; uh?'));
 
 	if ( ! is_multisite() ) {
-		$user_id = edit_user();
 
+		$user_id = edit_user();
+              
 		if ( is_wp_error( $user_id ) ) {
 			$add_user_errors = $user_id;
 		} else {
@@ -107,10 +110,16 @@ Please click the following link to confirm the invite:
 				$redirect = 'users.php?update=add&id=' . $user_id;
 			else
 				$redirect = add_query_arg( 'update', 'add', 'user-new.php' );
-			wp_redirect( $redirect );
+
+
+                        if($_REQUEST[ 'role' ] == 'student'){
+                            $this.add_student_record($user_id);
+                        }
+                        
+                        wp_redirect( $redirect );
 			die();
 		}
-	} else {
+	} else { 
 		// Adding a new user to this site
 		$user_details = wpmu_validate_user_signup( $_REQUEST[ 'user_login' ], $_REQUEST[ 'email' ] );
 		if ( is_wp_error( $user_details[ 'errors' ] ) && !empty( $user_details[ 'errors' ]->errors ) ) {
@@ -135,10 +144,23 @@ Please click the following link to confirm the invite:
 			} else {
 				$redirect = add_query_arg( array('update' => 'newuserconfirmation'), 'user-new.php' );
 			}
-			wp_redirect( $redirect );
+ 			wp_redirect( $redirect );
 			die();
 		}
 	}
+}
+
+
+function add_student_record($user_id){
+    global $wpdb;
+     $table = "aims_student";
+     $student_data = array(
+        'std_wp_user_id' => intval($user_id),
+        'aims_student_name' => $_REQUEST["user_login"],
+        'aims_student_email' => $_REQUEST['email'],
+        'aims_student_company_id' => $_REQUEST["company"]
+    );
+    $student_added = $wpdb->insert($table, $student_data);
 }
 
 $title = __('Add New User');
@@ -405,30 +427,32 @@ if ( apply_filters( 'show_password_fields', true ) ) : ?>
 		<td><label for="send_password"><input type="checkbox" name="send_password" id="send_password" value="1" <?php checked( $new_user_send_password ); ?> /> <?php _e('Send this password to the new user by email.'); ?></label></td>
 	</tr>
 <?php endif; ?>
+        
 <?php } // !is_multisite ?>
 	<tr class="form-field">
 		<th scope="row"><label for="role"><?php _e('Role'); ?></label></th>
-		<td><select name="role" id="role">
+		<td><select name="role" id="role" onchange="select_student_company(this.value);">
 			<?php
 			if ( !$new_user_role )
 				$new_user_role = !empty($current_role) ? $current_role : get_option('default_role');
 			wp_dropdown_roles($new_user_role);
+                        wp_enqueue_script( 'aims' );//added javascript code file to use update_clientadmin function.
 			?>
 			</select>
 		</td>
-                <?php //wp_dropdown_clientadmins();
-                  //  $client_admins = get_available_client_admins();
-                   // print_r($client_admins);
-                        ?>
-               <!-- <td><select name="role" id="role">
+	</tr>
+
+        <tr class="form-field">
+		 
+                <th scope="row" id="company_label"><label for="company"><?php _e('Company'); ?></label></th>
+                <td><select name="company" id="company" onchange="update_clientadmin();">
 			<?php
-			//if ( !$client_admins )
-				//$client_admins = !empty($client_admins) ? $client_admins : get_option('default_role');
-			//wp_dropdown_clientadmins();
+                           wp_dropdown_clientadmins();
 			?>
 			</select>
-		</td>!-->
+		</td>
 	</tr>
+
 	<?php if ( is_multisite() && is_super_admin() ) { ?>
 	<tr>
 		<th scope="row"><label for="noconfirmation"><?php _e('Skip Confirmation Email') ?></label></th>

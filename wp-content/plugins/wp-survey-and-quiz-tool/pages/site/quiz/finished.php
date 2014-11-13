@@ -6,10 +6,14 @@ $objTokens = Wpsqt_Tokens::getTokenObject();
 $objTokens->setDefaultValues();
 
 ?>
-<form method="post" action="<?php  echo  get_site_url().'/evaluate-trainer?'; ?>">
+<form method="post" action="<?php  echo  get_site_url().'/evaluate-trainer'; ?>">
 <h2 class="wpsqt-exam-finished-title"><?php _e('Exam Finished', 'wp-survey-and-quiz-tool'); ?></h2>
+ <div><input type="hidden" name="course_name" required="true" value="<?php echo $_SESSION['wpsqt']['current_id']?>"></div>
+ <!--<pre><?php //print_r($_SESSION['wpsqt']['current_id']);  ?></pre>
+  <pre><?php //print_r($_SESSION['wpsqt'][$_SESSION['wpsqt']['current_id']]);die;  ?></pre>
 
-<?php if ($_SESSION['wpsqt'][$quizName]['details']['finish_display'] == 'Finish message' || $_SESSION['wpsqt'][$quizName]['details']['finish_display'] == 'Both'  ) { ?>
+ <pre><?php //print_r($_SESSION); die;?></pre>!-->
+ <?php  if ($_SESSION['wpsqt'][$quizName]['details']['finish_display'] == 'Finish message' || $_SESSION['wpsqt'][$quizName]['details']['finish_display'] == 'Both'  ) { ?>
 	<?php if (isset($_SESSION['wpsqt'][$quizName]['details']['pass_finish']) &&
 		$_SESSION['wpsqt'][$quizName]['details']['pass_finish'] == "yes" &&
 		$percentRight >= $_SESSION['wpsqt'][$quizName]['details']['pass_mark']) {
@@ -35,7 +39,8 @@ $objTokens->setDefaultValues();
 }
 
 	if ( $_SESSION['wpsqt'][$quizName]['details']['use_pdf'] == "yes" ){
-		?>
+		?>         
+
 		<a href="<?php echo plugins_url('pdf.php?quizid='.$_SESSION['wpsqt'][$quizName]['details']['id'].'&id='.$_SESSION['wpsqt']['result_id'],WPSQT_FILE); ?>"><?php _e('Download certification', 'wp-survey-and-quiz-tool'); ?></a>
 		<?php
 	}
