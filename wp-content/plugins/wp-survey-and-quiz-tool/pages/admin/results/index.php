@@ -83,7 +83,7 @@
 						</strong>
 						<div class="row-actions">
                                                          <span class="mark"><a href="<?php echo WPSQT_URL_MAIN; ?>&section=results&subsection=mark&id=<?php echo urlencode($_GET['id']); ?>&resultid=<?php echo $result['id']; ?>">Mark</a> | </span>
-							<span class="mark"><a href="<?php echo WP_SITEURL;?>/student-evaluation?section=results&subsection=mark&id=<?php echo urlencode($_GET['id']); ?>&resultid=<?php echo $result['id']; ?>">Evaluate</a> | </span>
+							<span class="mark"><a href="<?php echo WP_SITEURL;?>/student-evaluations?section=results&subsection=mark&id=<?php echo urlencode($_GET['id']); ?>&resultid=<?php echo $result['id']; ?>">Evaluate</a> | </span>
 							<span class="delete"><a href="<?php echo WPSQT_URL_MAIN; ?>&section=resultsdelete&subsection=quiz&id=<?php echo urlencode($_GET['id']); ?>&resultid=<?php echo $result['id']; ?>">Delete</a></span>
 						</div>
 					</td>

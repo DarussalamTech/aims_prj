@@ -3,9 +3,9 @@
  * @package sign up
  */
 /*
-  Plugin Name: evaluate-trainert
+  Plugin Name: evaluate-trainer 
   Plugin URI: http://customtags.com/
-  Description: Easy course-management plugin.
+  Description: To evaluate trainer.
   Version: 1.0.0
   Author: Yasir
   Author URI: http://demosites.darussalampk.com/aims/
@@ -105,8 +105,7 @@ function evaluate_trainer() {
                           <input type="radio" name="quantityofwork"  value=3><label>3</label>
                           <input type="radio" name="quantityofwork"  value=4><label>4</label>
                           <input type="radio" name="quantityofwork"  value=5><label>5</label>
-                     </div>
-                  
+                     </div>                  
                     <div class="ev_tr_button"><input class="button-secondary" type="submit"  value="submit"></div>
                      
                 </form>

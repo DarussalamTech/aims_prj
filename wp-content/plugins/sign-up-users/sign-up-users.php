@@ -15,6 +15,15 @@
 
 add_shortcode('signupform', 'signupuser');
 
+//function css_changes(){
+//
+//    wp_enqueue_script("jquery");
+//    wp_register_script('sign-up-users_aims',  plugins_url('aims.js',__FILE__));
+//    wp_enqueue_script('sign-up-users_aims',  plugins_url('aims.js',__FILE__));
+//     //alert('select_student_company');
+//
+//}
+
 function signupuser() {
     global $wpdb;
     global $post;
@@ -29,6 +38,7 @@ function signupuser() {
     //var_dump($page);
     //echo $uri;
     //var_dump($slug); die;
+  
     if (is_user_logged_in () && $slug == 'sign-in') {
         $current_user = wp_get_current_user();
 ?>
@@ -42,14 +52,11 @@ function signupuser() {
 <? }elseif($slug == 'sign-in'){
         wp_safe_redirect(WP_SITEURL.'/wp-login.php');
     ?>
-
            <div  class="quest_name" style="text-align: center">
-                    Registered successfully Please <a title="Login" href="<?php echo WP_SITEURL . '/wp-login.php'; ?>">Login</a>
+                    Please Login <a title="Login" href="<?php echo WP_SITEURL . '/wp-login.php'; ?>">Login</a>
             </div>
     <?
-    
-    
-    
+  
 }else {
 
 ?>
