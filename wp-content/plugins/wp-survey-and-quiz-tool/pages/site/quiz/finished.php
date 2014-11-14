@@ -6,7 +6,7 @@ $objTokens = Wpsqt_Tokens::getTokenObject();
 $objTokens->setDefaultValues();
 
 ?>
-<form method="post" action="<?php  echo  get_site_url().'/evaluate-trainer'; ?>">
+<form method="post" action="<?php  echo  get_site_url().'/evaluate-trainer?'; ?>" style="background:#FF1313;">
 <h2 class="wpsqt-exam-finished-title"><?php _e('Exam Finished', 'wp-survey-and-quiz-tool'); ?></h2>
  <div><input type="hidden" name="course_name" required="true" value="<?php echo $_SESSION['wpsqt']['current_id']?>"></div>
  <!--<pre><?php //print_r($_SESSION['wpsqt']['current_id']);  ?></pre>

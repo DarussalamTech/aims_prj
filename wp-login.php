@@ -545,8 +545,8 @@ case 'retrievepassword' :
 <a href="<?php echo esc_url( wp_login_url() ); ?>"><?php _e('Log in') ?></a>
 <?php
 if ( get_option( 'users_can_register' ) ) :
-	$registration_url = sprintf( '<a href="%s">%s</a>', esc_url( wp_registration_url() ), __( 'Register' ) );
-
+	//$registration_url = sprintf( '<a href="%s">%s</a>', esc_url( wp_registration_url() ), __( 'Register' ) );
+	$registration_url = "http://demosites.darussalampk.com/aims/join-us";
 	/** This filter is documented in wp-includes/general-template.php */
 	echo ' | ' . apply_filters( 'register', $registration_url );
 endif;
@@ -811,9 +811,9 @@ default:
 			elseif ( is_multisite() && !$user->has_cap('read') ){
 				$redirect_to = get_dashboard_url( $user->ID );
 			}
-			elseif ( !$user->has_cap('edit_posts') ){
+			/*elseif ( !$user->has_cap('edit_posts') ){
 				$redirect_to = admin_url('profile.php');
-			}
+			}*/
 			elseif ( "student" == $user->roles[0] ){
 				$redirect_to = site_url()."/sign-in";
 			}
